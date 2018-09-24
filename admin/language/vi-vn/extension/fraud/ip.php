@@ -3,25 +3,25 @@
 $_['heading_title']      = 'Anti-Fraud IP';
 
 // Text
-$_['text_fraud']         = 'Chống gian lận';
-$_['text_success']       = 'Hoàn tất: Bạn đã sủa đổi Anti-Fraud IP!';
-$_['text_edit']          = 'Sửa Anti-Fraud IP';
-$_['text_ip_add']        = 'Thêm dịa chỉ IP';
-$_['text_ip_list']       = 'Danh sách các IP gian lận';
+$_['text_extension']     = 'Extensions';
+$_['text_success']       = 'Success: You have modified Anti-Fraud IP!';
+$_['text_edit']          = 'Edit Anti-Fraud IP';
+$_['text_ip_add']        = 'Add IP Address';
+$_['text_ip_list']       = 'Fraud IP Address List';
 
 // Column
 $_['column_ip']          = 'IP';
-$_['column_total']       = 'Tổng số tài khoản';
-$_['column_date_added']  = 'Ngày thêm';
-$_['column_action']      = 'Thao tác';
+$_['column_total']       = 'Total Accounts';
+$_['column_date_added']  = 'Date Added';
+$_['column_action']      = 'Action';
 
 // Entry
 $_['entry_ip']           = 'IP';
-$_['entry_status']       = 'Trạng thái';
-$_['entry_order_status'] = 'Trạng thái đơn hàng';
+$_['entry_status']       = 'Status';
+$_['entry_order_status'] = 'Order Status';
 
 // Help
-$_['help_order_status']  = 'Khách hàng sử dụng một IP bị cấm trên tài khoản của họ thì đơn hàng sẽ được chỉ định trạng thái này và sẽ không được tự động hoàn thành.';
+$_['help_order_status']  = 'Customers that have a banned IP on their accounts will be assigned this order status and will not be allowed to reach the complete status automatically.';
 
 // Error
-$_['error_permission']   = 'Cảnh báo: Bạn không đủ quyền hạn sửa  Anti-Fraud IP Mô đun!';
+$_['error_permission']   = 'Warning: You do not have permission to modify Anti-Fraud IP!';

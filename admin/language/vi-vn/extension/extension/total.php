@@ -1,34 +1,16 @@
 <?php
-
 // Heading
-
-$_['heading_title']     = 'Tổng đơn hàng';
-
-
+$_['heading_title']     = 'Order Totals';
 
 // Text
-
-$_['text_success']      = 'Hoàn tất: Bạn đã thay đổi tổng thể!';
-
-$_['text_list']         = 'Danh sách ';
-
-$_['text_uninstall']    = 'Gỡ bỏ';
-
-
+$_['text_success']      = 'Success: You have modified totals!';
+$_['text_list']         = 'Order Total List';
 
 // Column
-
-$_['column_name']       = 'Tổng đơn hàng';
-
-$_['column_status']     = 'Trạng thái';
-
-$_['column_sort_order'] = 'Thứ tự';
-
-$_['column_action']     = 'Thao tác';
-
-
+$_['column_name']       = 'Order Totals';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-
-$_['error_permission']  = 'Cảnh báo: Bạn không có quyền sửa đổi tổng đơn hàng!';
-
+$_['error_permission']  = 'Warning: You do not have permission to modify totals!';

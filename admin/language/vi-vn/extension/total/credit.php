@@ -1,16 +1,15 @@
-<?php
-// Heading
-$_['heading_title']    = 'Tiền Tích luỹ ';
-
-// Text
-$_['text_total']       = 'Tổng số đơn hàng';
-$_['text_success']     = 'Thành công: Bạn đã sửa đổi tổng số tiền tích lũy!';
-$_['text_edit']        = 'Chỉnh sửa tổng thể tiền tích lũy';
-
-// Entry
-$_['entry_status']     = 'Tình trạng:';
-$_['entry_sort_order'] = 'Thứ tự:';
-
-// Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi tổng số tiền tích lũy!';
-?>
+<?php
+// Heading
+$_['heading_title']    = 'Store Credit';
+
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified store credit total!';
+$_['text_edit']        = 'Edit Store Credit Total';
+
+// Entry
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
+
+// Error
+$_['error_permission'] = 'Warning: You do not have permission to modify store credit total!';

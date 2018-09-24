@@ -1,25 +1,23 @@
 <?php
 // Heading
-
-
-$_['heading_title']		 = 'Chuyển khoản';
+$_['heading_title']      = 'Bank Transfer';
 
 // Text
-$_['text_payment']		 = 'Thanh toán';
-$_['text_success']		 = 'Hoàn tất: Bạn đã thay đổi thông tin chuyển khoản!';
-$_['text_edit']          = 'Sửa thông tin nguyển khoản';
+$_['text_extension']     = 'Extensions';
+$_['text_success']       = 'Success: You have modified bank transfer details!';
+$_['text_edit']          = 'Edit Bank Transfer';
 
 // Entry
-$_['entry_bank']		 = 'Thông tin chuyển khoản ngân hàng';
-$_['entry_total']		 = 'Tổng';
-$_['entry_order_status'] = 'Trạng thái đơn hàng';
-$_['entry_geo_zone']	 = 'Thuế khu vực';
-$_['entry_status']		 = 'Trạng thái';
-$_['entry_sort_order']	 = 'Thứ tự';
+$_['entry_bank']         = 'Bank Transfer Instructions';
+$_['entry_total']        = 'Total';
+$_['entry_order_status'] = 'Order Status';
+$_['entry_geo_zone']     = 'Geo Zone';
+$_['entry_status']       = 'Status';
+$_['entry_sort_order']   = 'Sort Order';
 
 // Help
-$_['help_total']		 = 'Kiểm tra tất cả các đơn hàng trước khi thanh toán được kích hoạt..';
+$_['help_total']         = 'The checkout total the order must reach before this payment method becomes active.'; 
 
-// Error
-$_['error_permission']   = 'Cảnh báo: Bạn không đủ thẩm quyền thực hiện thao tác này!';
-$_['error_bank']         = 'Yêu cầu cung cấp thông tin chuyển khoản!';
+// Error 
+$_['error_permission']   = 'Warning: You do not have permission to modify payment bank transfer!';
+$_['error_bank']         = 'Bank Transfer Instructions Required!';

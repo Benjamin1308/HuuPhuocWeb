@@ -1,32 +1,25 @@
 <?php
 // Heading
-$_['heading_title']       = 'Sản phẩm Nổi bật';
+$_['heading_title']    = 'Featured';
 
 // Text
-$_['text_module']         = 'Mô-đun';
-$_['text_success']        = 'Thành công: mô-đun Sản phẩm Nổi bật đã được thay đổi!';
-$_['text_content_top']    = 'Đầu nội dung ';
-$_['text_content_bottom'] = 'Cuối nội dung';
-$_['text_column_left']    = 'Cột trái';
-$_['text_column_right']   = 'Cột phải';
-$_['text_edit']        = 'Sửa module sản phẩm nổi bật';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified featured module!';
+$_['text_edit']        = 'Edit Featured Module';
 
 // Entry
-$_['entry_name']       = 'Tên Module';
-$_['entry_product']       = 'Sản phẩm:';
-$_['entry_limit']         = 'Giới hạn:';
-$_['entry_image']         = 'Hình (W x H):';
-$_['entry_width']      = 'Chiều rộng';
-$_['entry_height']     = 'Chiều cao';
-$_['entry_layout']        = 'Bố cục:';
-$_['entry_position']      = 'Vị trí:';
-$_['entry_status']        = 'Trạng thái:';
-$_['entry_sort_order']    = 'Thứ tự:';
+$_['entry_name']       = 'Module Name';
+$_['entry_product']    = 'Products';
+$_['entry_limit']      = 'Limit';
+$_['entry_width']      = 'Width';
+$_['entry_height']     = 'Height';
+$_['entry_status']     = 'Status';
+
 // Help
-$_['help_product']     = '(Tự động điền vào)';
+$_['help_product']     = '(Autocomplete)';
 
 // Error
-$_['error_permission']    = 'Cảnh báo: Bạn không có quyền thay đổi mô-đun Sản phẩm Nổi bật!';
-$_['error_image']         = 'Chiều rộng ảnh & kích thước chiều cao yêu cầu!';
-$_['error_width']      = 'Bạn phải điền chiều rộng!';
-$_['error_height']     = 'Bạn phải điền chiều cao!';
+$_['error_permission'] = 'Warning: You do not have permission to modify featured module!';
+$_['error_name']       = 'Module Name must be between 3 and 64 characters!';
+$_['error_width']      = 'Width required!';
+$_['error_height']     = 'Height required!';

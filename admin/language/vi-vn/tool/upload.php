@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']     = 'Tải lên';
+$_['heading_title']     = 'Quản lý Tập tin';
 
 // Text
-$_['text_success']      = 'Hoàn tất: Bạn đã sửa đổi mục tải lên!';
-$_['text_list']         = 'Danh sách đã tải lên';
+$_['text_success']      = 'Chúc mừng! Bạn đã cập nhật thành công!';
+$_['text_list']         = 'Danh mục Tập tin';
 
 // Column
-$_['column_name']       = 'Tiêu đề';
-$_['column_filename']   = 'Tên tệp';
-$_['column_date_added'] = 'Ngày thêm';
+$_['column_name']       = 'Tên Upload';
+$_['column_filename']   = 'Tên Tập tin';
+$_['column_date_added'] = 'Ngày đăng';
 $_['column_action']     = 'Thao tác';
 
 // Entry
-$_['entry_name']        = 'Tiêu đề';
-$_['entry_filename']    = 'Tên tệp';
+$_['entry_name']        = 'Tên Upload';
+$_['entry_filename']    = 'Tên Tập tin';
 $_['entry_date_added'] 	= 'Ngày thêm';
 
 // Error
-$_['error_permission']  = 'Cảnh báo: Bạn không đủ quyền hạn thực hiện thao tác này!';
+$_['error_permission']  = 'Chú ý: Bạn không có quyền chỉnh sửa mục này!';

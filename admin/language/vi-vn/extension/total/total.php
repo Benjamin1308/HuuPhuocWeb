@@ -1,16 +1,15 @@
-<?php
-// Heading
-$_['heading_title']    = 'Tổng số tiền thanh toán';
-
-// Text
-$_['text_total']       = 'Tổng số đơn đặt hàng';
-$_['text_success']     = 'Thành công: bạn đã thay đổi tổng số!';
-$_['text_edit']        = 'Chỉnh sửa Tổng số Total';
-
-// Entry
-$_['entry_status']     = 'Tình trạng:';
-$_['entry_sort_order'] = 'Thứ tự:';
-
-// Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi tổng số!';
-?>
+<?php
+// Heading
+$_['heading_title']    = 'Total';
+
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified total totals!';
+$_['text_edit']        = 'Edit Total Total';
+
+// Entry
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
+
+// Error
+$_['error_permission'] = 'Warning: You do not have permission to modify total totals!';

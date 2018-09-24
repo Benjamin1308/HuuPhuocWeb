@@ -1,34 +1,16 @@
 <?php
-
 // Heading
-
-$_['heading_title']      = 'Vận chuyển';
-
-
+$_['heading_title']     = 'Shipping';
 
 // Text
-
-$_['text_success']      = 'Hoàn tất: Bạn đã cập nhật Vận chuyển thành công!';
-
-$_['text_list']         = 'Danh sách Phương thức vận chuyển';
-
-$_['text_uninstall']     = 'Gỡ bỏ';
-
-
+$_['text_success']      = 'Success: You have modified shipping!';
+$_['text_list']         = 'Shipping List';
 
 // Column
-
-$_['column_name']        = 'Phương thức vận chuyển';
-
-$_['column_status']      = 'Trạng thái';
-
-$_['column_sort_order']  = 'Thứ tự';
-
-$_['column_action']      = 'Thao tác';
-
-
+$_['column_name']       = 'Shipping Method';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-
-$_['error_permission']  = 'Cảnh báo: Bạn không có quyền sửa đổi vận chuyển!';
-
+$_['error_permission']  = 'Warning: You do not have permission to modify shipping!';

@@ -1,17 +1,17 @@
 <?php
 // Heading
-$_['heading_title']     = 'Bảng điều khiển';
+$_['heading_title']     = 'Dashboard';
 
 // Text
-$_['text_success']      = 'Hoàn tất: Bạn đã sửa đổi bảng điều khiển!';
-$_['text_list']         = 'Danh sách';
+$_['text_success']      = 'Success: You have modified dashboards!';
+$_['text_list']         = 'Dashboard List';
 
 // Column
-$_['column_name']       = 'Tên';
-$_['column_width']      = 'Rộng';
-$_['column_status']     = 'Trạng thái';
-$_['column_sort_order'] = 'Thứ tự';
-$_['column_action']     = 'Thao tác';
+$_['column_name']       = 'Dashboard Name';
+$_['column_width']      = 'Width';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Cảnh báo: Bạn không đủ quyền hạn thực hiện thao tác này!';
+$_['error_permission']  = 'Warning: You do not have permission to modify dashboards!';

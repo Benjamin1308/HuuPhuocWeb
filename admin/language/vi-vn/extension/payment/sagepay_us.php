@@ -1,26 +1,25 @@
 <?php
 // Heading
-$_['heading_title']      = 'SagePay (US)';
+$_['heading_title']		 = 'Sage Payment Solutions (US)';
 
-// Text 
-$_['text_payment']       = 'Thanh Toán'; 
-$_['text_success']       = 'Thành Công: Bạn đã thay đổi chi tiết tài khoản SagePay!';
-$_['text_edit']                     = 'Edit Sage Payment Solutions (US)';
+// Text
+$_['text_extension']	 = 'Extensions';
+$_['text_success']		 = 'Success: You have modified SagePay account details!';
+$_['text_edit']          = 'Edit Sage Payment Solutions (US)';
 
 // Entry
-$_['entry_merchant_id']  = 'Merchant ID:';
-$_['entry_merchant_key'] = 'Merchant Key:';
-$_['entry_total']        = 'Tổng cộng:<br /><span class="help">Kiểm tra tất cả các đơn hàng trước khi thanh toán được kích hoạt.</span>';
-$_['entry_order_status'] = 'Trạng thái đơn hàng:';
-$_['entry_geo_zone']     = 'Vùng tính thuế';
-$_['entry_status']       = 'Trạng thái:';
-$_['entry_sort_order']   = 'Sắp xếp đơn hàng:';
+$_['entry_merchant_id']	 = 'Merchant ID';
+$_['entry_merchant_key'] = 'Merchant Key';
+$_['entry_total']		 = 'Total';
+$_['entry_order_status'] = 'Order Status';
+$_['entry_geo_zone']	 = 'Geo Zone';
+$_['entry_status']		 = 'Status';
+$_['entry_sort_order']	 = 'Sort Order';
 
 // Help
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_total']		 = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']   = 'Cảnh báo:Bạn không có quyền sửa đổi thanh toán SagePay!';
-$_['error_merchant_id']  = 'Yêu cầu Merchant ID!';
-$_['error_merchant_key'] = 'Yêu cầu Merchant Key!';
-?>
+$_['error_permission']	 = 'Warning: You do not have permission to modify payment SagePay!';
+$_['error_merchant_id']	 = 'Merchant ID Required!';
+$_['error_merchant_key'] = 'Merchant Key Required!';

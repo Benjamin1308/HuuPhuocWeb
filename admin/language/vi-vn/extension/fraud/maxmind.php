@@ -3,10 +3,10 @@
 $_['heading_title']                           = 'MaxMind Anti-Fraud';
 
 // Text
-$_['text_fraud']                              = 'Chống gian lận';
-$_['text_success']                            = 'Hoàn tất: Bạn đã thay đổi các thiết lập MaxMind anti-fraud!';
-$_['text_edit']                               = 'Sửa MaxMind Anti-Fraud';
-$_['text_signup']                             = 'MaxMind là một dịch vụ chống gian lận. Nếu bạn chưa có một mã bản quyền hãy đăng ký <a href="http://www.maxmind.com/?rId=opencart" target="_blank"><u>tại đây</u></a>.';
+$_['text_extension']                          = 'Extensions';
+$_['text_success']                            = 'Success: You have modified MaxMind anti-fraud!';
+$_['text_edit']                               = 'Edit MaxMind Anti-Fraud';
+$_['text_signup']                             = 'MaxMind is a fraud detection service. If you don\'t have a license key you can <a href="http://www.maxmind.com/?rId=opencart" target="_blank"><u>sign up here</u></a>.';
 $_['text_country_match']                      = 'Country Match:';
 $_['text_country_code']                       = 'Country Code:';
 $_['text_high_risk_country']                  = 'High Risk Country:';
@@ -60,13 +60,12 @@ $_['text_error']                              = 'Error:';
 
 // Entry
 $_['entry_key']                               = 'MaxMind License Key';
-$_['entry_score']                             = 'Điểm ';
-$_['entry_order_status']                      = 'Trạng thái đơn hàng';
-$_['entry_status']                            = 'Trạng thái';
+$_['entry_score']                             = 'Risk Score';
+$_['entry_order_status']                      = 'Order Status';
+$_['entry_status']                            = 'Status';
 
 // Help
-$_['help_score']                              = 'Điểm số càng cao khả năng chống gian lận càng lớn. Đặt điểm giữa 0-100.';
-$_['help_order_status']                       = 'Khi đơn đặt hàng có số điểm bằng thang điểm nguy cơ trở lên  sẽ được chỉ định trạng thái này và sẽ không được tự động hoàn tất.';
+$_['help_order_status']                       = 'Orders that have a score over your set risk score will be assigned this order status and will not be allowed to reach the complete status automatically.';
 $_['help_country_match']                      = 'Whether country of IP address matches billing address country (mismatch = higher risk).';
 $_['help_country_code']                       = 'Country Code of the IP address.';
 $_['help_high_risk_country']                  = 'Whether IP address or billing address country is in Ghana, Nigeria, or Vietnam.';
@@ -111,7 +110,7 @@ $_['help_customer_phone_in_billing_location'] = 'Whether the customer phone numb
 $_['help_ship_forward']                       = 'Whether shipping address is in database of known mail drops.';
 $_['help_city_postal_match']                  = 'Whether billing city and state match zipcode. Currently available for US addresses only, returns empty string outside the US.';
 $_['help_ship_city_postal_match']             = 'Whether shipping city and state match zipcode. Currently available for US addresses only, returns empty string outside the US.';
-$_['help_score']                              = 'Điểm số càng cao khả năng chống gian lận càng lớn. Đặt điểm giữa 0-100.';
+$_['help_score']                              = 'Overall fraud score based on outputs listed above. This is the original fraud score, and is based on a simple formula. It has been replaced with risk score (see below), but is kept for backwards compatibility.';
 $_['help_explanation']                        = 'A brief explanation of the score, detailing what factors contributed to it, according to our formula. Please note this corresponds to the score, not the riskScore.';
 $_['help_risk_score']                         = 'New fraud score representing the estimated probability that the order is fraud, based off of analysis of past minFraud transactions. Requires an upgrade for clients who signed up before February 2007.';
 $_['help_queries_remaining']                  = 'Number of queries remaining in your account, can be used to alert you when you may need to add more queries to your account.';
@@ -119,5 +118,5 @@ $_['help_maxmind_id']                         = 'Unique identifier, used to refe
 $_['help_error']                              = 'Returns an error string with a warning message or a reason why the request failed.';
 
 // Error
-$_['error_permission']                        = 'Cảnh báo: Bạn không đủ quyền hạn sử đổi MaxMind anti-fraud!';
-$_['error_key']		                          = 'Bạn phải điền Key!';
+$_['error_permission']                        = 'Warning: You do not have permission to modify MaxMind anti-fraud!';
+$_['error_key']                               = 'License Key Required!';

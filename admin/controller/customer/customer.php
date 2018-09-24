@@ -30,8 +30,8 @@ class ControllerCustomerCustomer extends Controller {
 				$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 			}
 
-			if (isset($this->request->get['filter_email'])) {
-				$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+			if (isset($this->request->get['filter_telephone'])) {
+				$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 			}
 
 			if (isset($this->request->get['filter_customer_group_id'])) {
@@ -86,8 +86,8 @@ class ControllerCustomerCustomer extends Controller {
 				$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 			}
 
-			if (isset($this->request->get['filter_email'])) {
-				$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+			if (isset($this->request->get['filter_telephone'])) {
+				$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 			}
 
 			if (isset($this->request->get['filter_customer_group_id'])) {
@@ -144,8 +144,8 @@ class ControllerCustomerCustomer extends Controller {
 				$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 			}
 
-			if (isset($this->request->get['filter_email'])) {
-				$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+			if (isset($this->request->get['filter_telephone'])) {
+				$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 			}
 
 			if (isset($this->request->get['filter_customer_group_id'])) {
@@ -200,8 +200,8 @@ class ControllerCustomerCustomer extends Controller {
 				$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 			}
 
-			if (isset($this->request->get['filter_email'])) {
-				$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+			if (isset($this->request->get['filter_telephone'])) {
+				$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 			}
 
 			if (isset($this->request->get['filter_customer_group_id'])) {
@@ -245,10 +245,10 @@ class ControllerCustomerCustomer extends Controller {
 			$filter_name = '';
 		}
 
-		if (isset($this->request->get['filter_email'])) {
-			$filter_email = $this->request->get['filter_email'];
+		if (isset($this->request->get['filter_telephone'])) {
+			$filter_telephone = $this->request->get['filter_telephone'];
 		} else {
-			$filter_email = '';
+			$filter_telephone = '';
 		}
 
 		if (isset($this->request->get['filter_customer_group_id'])) {
@@ -299,8 +299,8 @@ class ControllerCustomerCustomer extends Controller {
 			$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 		}
 
-		if (isset($this->request->get['filter_email'])) {
-			$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+		if (isset($this->request->get['filter_telephone'])) {
+			$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 		}
 
 		if (isset($this->request->get['filter_customer_group_id'])) {
@@ -354,7 +354,7 @@ class ControllerCustomerCustomer extends Controller {
 
 		$filter_data = array(
 			'filter_name'              => $filter_name,
-			'filter_email'             => $filter_email,
+			'filter_telephone'             => $filter_telephone,
 			'filter_customer_group_id' => $filter_customer_group_id,
 			'filter_status'            => $filter_status,
 			'filter_date_added'        => $filter_date_added,
@@ -395,6 +395,7 @@ class ControllerCustomerCustomer extends Controller {
 			$data['customers'][] = array(
 				'customer_id'    => $result['customer_id'],
 				'name'           => $result['name'],
+				'telephone'          => $result['telephone'],
 				'email'          => $result['email'],
 				'customer_group' => $result['customer_group'],
 				'status'         => ($result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled')),
@@ -434,8 +435,8 @@ class ControllerCustomerCustomer extends Controller {
 			$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 		}
 
-		if (isset($this->request->get['filter_email'])) {
-			$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+		if (isset($this->request->get['filter_telephone'])) {
+			$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 		}
 
 		if (isset($this->request->get['filter_customer_group_id'])) {
@@ -465,7 +466,7 @@ class ControllerCustomerCustomer extends Controller {
 		}
 
 		$data['sort_name'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=name' . $url, true);
-		$data['sort_email'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=c.email' . $url, true);
+		$data['sort_telephone'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=c.telephone' . $url, true);
 		$data['sort_customer_group'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=customer_group' . $url, true);
 		$data['sort_status'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=c.status' . $url, true);
 		$data['sort_ip'] = $this->url->link('customer/customer', 'user_token=' . $this->session->data['user_token'] . '&sort=c.ip' . $url, true);
@@ -477,8 +478,8 @@ class ControllerCustomerCustomer extends Controller {
 			$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 		}
 
-		if (isset($this->request->get['filter_email'])) {
-			$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+		if (isset($this->request->get['filter_telephone'])) {
+			$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 		}
 
 		if (isset($this->request->get['filter_customer_group_id'])) {
@@ -516,7 +517,7 @@ class ControllerCustomerCustomer extends Controller {
 		$data['results'] = sprintf($this->language->get('text_pagination'), ($customer_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($customer_total - $this->config->get('config_limit_admin'))) ? $customer_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $customer_total, ceil($customer_total / $this->config->get('config_limit_admin')));
 
 		$data['filter_name'] = $filter_name;
-		$data['filter_email'] = $filter_email;
+		$data['filter_telephone'] = $filter_telephone;
 		$data['filter_customer_group_id'] = $filter_customer_group_id;
 		$data['filter_status'] = $filter_status;
 		$data['filter_ip'] = $filter_ip;
@@ -631,8 +632,8 @@ class ControllerCustomerCustomer extends Controller {
 			$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
 		}
 
-		if (isset($this->request->get['filter_email'])) {
-			$url .= '&filter_email=' . urlencode(html_entity_decode($this->request->get['filter_email'], ENT_QUOTES, 'UTF-8'));
+		if (isset($this->request->get['filter_telephone'])) {
+			$url .= '&filter_telephone=' . urlencode(html_entity_decode($this->request->get['filter_telephone'], ENT_QUOTES, 'UTF-8'));
 		}
 
 		if (isset($this->request->get['filter_customer_group_id'])) {
@@ -980,8 +981,8 @@ class ControllerCustomerCustomer extends Controller {
 			}
 		}
 
-		if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {
-			$this->error['telephone'] = $this->language->get('error_telephone');
+		if ((utf8_strlen($this->request->post['email']) < 3) || (utf8_strlen($this->request->post['email']) > 32)) {
+			$this->error['email'] = $this->language->get('error_email');
 		}
 
 		// Custom field validation
@@ -1391,17 +1392,17 @@ class ControllerCustomerCustomer extends Controller {
 	public function autocomplete() {
 		$json = array();
 
-		if (isset($this->request->get['filter_name']) || isset($this->request->get['filter_email'])) {
+		if (isset($this->request->get['filter_name']) || isset($this->request->get['filter_telephone'])) {
 			if (isset($this->request->get['filter_name'])) {
 				$filter_name = $this->request->get['filter_name'];
 			} else {
 				$filter_name = '';
 			}
 
-			if (isset($this->request->get['filter_email'])) {
-				$filter_email = $this->request->get['filter_email'];
+			if (isset($this->request->get['filter_telephone'])) {
+				$filter_telephone = $this->request->get['filter_telephone'];
 			} else {
-				$filter_email = '';
+				$filter_telephone = '';
 			}
 			
 			if (isset($this->request->get['filter_affiliate'])) {
@@ -1414,7 +1415,7 @@ class ControllerCustomerCustomer extends Controller {
 
 			$filter_data = array(
 				'filter_name'      => $filter_name,
-				'filter_email'     => $filter_email,
+				'filter_telephone'     => $filter_telephone,
 				'filter_affiliate' => $filter_affiliate,
 				'start'            => 0,
 				'limit'            => 5

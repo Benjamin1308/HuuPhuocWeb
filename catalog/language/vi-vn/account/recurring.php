@@ -1,56 +1,52 @@
 <?php
-$_['heading_title'] = 'Chi phí theo định kỳ';
-$_['button_continue'] = 'Tiếp tục';
-$_['button_view'] = 'Xem chi tiết';
-$_['button_cancel_profile'] = 'Cancel payments';
-$_['text_empty'] = 'No recurring payment profiles found';
-$_['text_product'] = 'Product: ';
-$_['text_order'] = 'Order: ';
-$_['text_quantity'] = 'Quantity: ';
-$_['text_account'] = 'Account';
-$_['text_action'] = 'Action';
-$_['text_recurring'] = 'Recurring payment';
-$_['text_transactions'] = 'Transactions';
-$_['button_return'] = 'Return';
-$_['text_confirm_cancel'] = 'Are you sure you want to cancel the profile?';
-$_['text_empty_transactions'] = 'No transactions for this profile';
+// Heading
+$_['heading_title']                        = 'Chi phí theo định kỳ';
 
-$_['column_created'] = 'Created';
-$_['column_date_added'] = 'Created';
-$_['column_type'] = 'Type';
-$_['column_amount'] = 'Amount';
-$_['column_status'] = 'Status';
-$_['column_product'] = 'Product';
-$_['column_action'] = 'Action';
-$_['column_profile_id'] = 'Profile ID';
-$_['column_recurring_id'] = 'Profile ID';
-$_['text_recurring_detail'] = 'Recurring payment details';
-$_['text_recurring_id'] = 'Profile ID: ';
-$_['text_payment_method'] = 'Payment method: ';
-$_['text_date_added'] = 'Created: ';
-$_['text_recurring_description'] = 'Description: ';
-$_['text_status'] = 'Status: ';
-$_['text_ref'] = 'Reference: ';
+// Text
+$_['text_account']                         = 'Tài khoản';
+$_['text_recurring']                       = 'Thông tin thanh toán định kỳ';
+$_['text_recurring_detail']                = 'Chi tiết Thanh toán định kỳ';
+$_['text_order_recurring_id']              = 'ID thanh toán định kỳ:';
+$_['text_date_added']                      = 'Ngày tạo:';
+$_['text_status']                          = 'Tình trạng:';
+$_['text_payment_method']                  = 'Phương thức thanh toán:';
+$_['text_order_id']                        = 'ID đơn hàng:';
+$_['text_product']                         = 'Sản phẩm:';
+$_['text_quantity']                        = 'Số lượng:';
+$_['text_description']                     = 'Mô tả';
+$_['text_reference']                       = 'Tài liệu tham khảo';
+$_['text_transaction']                     = 'Giao dịch';
+$_['text_status_1']                        = 'Thao tác';
+$_['text_status_2']                        = 'Không hoạt động';
+$_['text_status_3']                        = 'Hủy bỏ';
+$_['text_status_4']                        = 'Bị treo';
+$_['text_status_5']                        = 'Đã hết hạn';
+$_['text_status_6']                        = 'Đang chờ xử lý';
+$_['text_transaction_date_added'] = 'Tạo';
+$_['text_transaction_payment'] = 'Thanh toán';
+$_['text_transaction_outstanding_payment'] = 'Thanh toán còn nợ';
+$_['text_transaction_skipped'] = 'Thanh toán đang bị giữ';
+$_['text_transaction_failed'] = 'Thanh toán không thành công';
+$_['text_transaction_cancelled'] = 'Đã hủy';
+$_['text_transaction_suspended'] = 'Đình chỉ';
+$_['text_transaction_suspended_failed'] = 'Đình chỉ do Thanh toán không thành công';
+$_['text_transaction_outstanding_failed'] = 'Thanh toán nợ không thành công ';
+$_['text_transaction_expired'] = 'Hết hạn';
+$_['text_empty']                           = 'Không tìm thấy thanh toán định kỳ!';
+$_['text_error']                           = 'Không thể tìm thấy thứ tự định kỳ mà bạn yêu cầu!';
+$_['text_cancelled']                       = 'Thanh toán định kỳ đã bị hủy';
 
-$_['text_status_active'] = 'Active';
-$_['text_status_inactive'] = 'Inactive';
-$_['text_status_cancelled'] = 'Cancelled';
-$_['text_status_suspended'] = 'Suspended';
-$_['text_status_expired'] = 'Expired';
-$_['text_status_pending'] = 'Pending';
-$_['text_transaction_date_added'] = 'Created';
-$_['text_transaction_created'] = 'Created';
-$_['text_transaction_payment'] = 'Payment';
-$_['text_transaction_outstanding_payment'] = 'Outstanding payment';
-$_['text_transaction_skipped'] = 'Payment skipped';
-$_['text_transaction_failed'] = 'Payment failed';
-$_['text_transaction_cancelled'] = 'Cancelled';
-$_['text_transaction_suspended'] = 'Suspended';
-$_['text_transaction_suspended_failed'] = 'Suspended from failed payment';
-$_['text_transaction_outstanding_failed'] = 'Outstanding payment failed';
-$_['text_transaction_expired'] = 'Expired';
-$_['text_cancelled'] = 'Recurring payment has been cancelled';
+// Column
+$_['column_date_added']                    = 'Ngày tạo';
+$_['column_type'] = 'Kiểu';
+$_['column_amount'] = 'Giá trị';
+$_['column_status'] = 'Trạng thái';
+$_['column_product'] = 'Sản phẩm';
+$_['column_order_recurring_id']            = 'Recurring ID';
 
-$_['error_not_cancelled'] = 'Error: %s';
-$_['error_not_found'] = 'Could not cancel profile';
-$_['success_cancelled'] = 'Recurring payment has been cancelled';
+// Error
+$_['error_not_cancelled']                  = 'Lỗi: %s';
+$_['error_not_found'] = 'Không thể hủy hồ sơ';
+
+// Button
+$_['button_return']                        = 'Trở về';

@@ -1,31 +1,31 @@
 <?php
 // Heading
-$_['heading_title']      = 'Các phần mở rộng';
+$_['heading_title']      = 'Extension Marketplace';
 
 // Text
-$_['text_success']       = 'Hoàn tất: Bạn đã lưu các thay đổi!';
-$_['text_list']          = 'Các phần mở rộng';
-$_['text_filter']        = 'Sắp xếp';
-$_['text_search']        = 'Tìm phần mở rộng hoặc giao diện';
-$_['text_category']      = 'Danh mục';
-$_['text_all']           = 'Toàn bộ';
-$_['text_theme']         = 'Giao diện';
+$_['text_success']       = 'Success: You have modified extensions!';
+$_['text_list']          = 'Extension List';
+$_['text_filter']        = 'Filter';
+$_['text_search']        = 'Search for extensions and themes';
+$_['text_category']      = 'Categories';
+$_['text_all']           = 'All';
+$_['text_theme']         = 'Themes';
 $_['text_marketplace']   = 'Marketplaces';
-$_['text_language']      = 'Ngôn ngữ';
-$_['text_payment']       = 'Thanh toán';
-$_['text_shipping']      = 'Vận chuyển';
+$_['text_language']      = 'Languages';
+$_['text_payment']       = 'Payment';
+$_['text_shipping']      = 'Shipping';
 $_['text_module']        = 'Modules';
-$_['text_total']         = 'Tổng đơn hàng';
+$_['text_total']         = 'Order Totals';
 $_['text_feed']          = 'Feeds';
-$_['text_report']        = 'Báo cáo';
-$_['text_other']         = 'Loại khác';
-$_['text_free']          = 'Miến phí';
-$_['text_paid']          = 'Có phí';
-$_['text_purchased']     = 'Đặt hàng';
-$_['text_date_modified'] = 'Ngày sửa';
-$_['text_date_added']    = 'Ngày thêm';
-$_['text_rating']        = 'Đánh giá';
-$_['text_reviews']       = 'đánh giá';
+$_['text_report']        = 'Reports';
+$_['text_other']         = 'Other';
+$_['text_free']          = 'Free';
+$_['text_paid']          = 'Paid';
+$_['text_purchased']     = 'Purchased';
+$_['text_date_modified'] = 'Date Modified';
+$_['text_date_added']    = 'Date Added';
+$_['text_rating']        = 'Rating';
+$_['text_reviews']       = 'reviews';
 $_['text_compatibility'] = 'Compatibility';
 $_['text_downloaded']    = 'Downloaded';
 $_['text_member_since']  = 'Member since:';

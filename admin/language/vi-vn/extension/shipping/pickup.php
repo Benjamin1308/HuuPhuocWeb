@@ -2,16 +2,15 @@
 // Heading
 $_['heading_title']    = 'Pickup From Store';
 
-// Text 
-$_['text_shipping']    = 'Shipping';
-$_['text_success']     = 'Thành Công: Bạn đã thay đổi pickup from store!';
-$_['text_edit']        = 'Chỉnh sửa Pickup từ Store Shipping';
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified pickup from store!';
+$_['text_edit']        = 'Edit Pickup From Store Shipping';
 
 // Entry
-$_['entry_geo_zone']   = 'Vùng tính thuế';
-$_['entry_status']     = 'Trạng thái:';
-$_['entry_sort_order'] = 'Sắp xếp đơn hàng:';
+$_['entry_geo_zone']   = 'Geo Zone';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa pickup from store!';
-?>
+$_['error_permission'] = 'Warning: You do not have permission to modify pickup from store!';

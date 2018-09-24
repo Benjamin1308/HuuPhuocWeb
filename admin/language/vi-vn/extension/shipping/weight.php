@@ -3,19 +3,19 @@
 $_['heading_title']    = 'Weight Based Shipping';
 
 // Text
-$_['text_shipping']    = 'Shipping';
-$_['text_success']     = 'Thành Công: Bạn đã thay đổi weight based shipping!';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified weight based shipping!';
 $_['text_edit']        = 'Edit Weight Based Shipping';
 
 // Entry
-$_['entry_rate']       = 'Rates:<br /><span class="help">Example: 5:10.00,7:12.00 Weight:Cost,Weight:Cost, etc..</span>';
-$_['entry_tax_class']  = 'Thuế:';
-$_['entry_geo_zone']   = 'Vùng tính thuế';
-$_['entry_status']     = 'Trạng thái:';
-$_['entry_sort_order'] = 'Sắp xếp đơn hàng:';
+$_['entry_rate']       = 'Rates';
+$_['entry_tax_class']  = 'Tax Class';
+$_['entry_geo_zone']   = 'Geo Zone';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Help
 $_['help_rate']        = 'Example: 5:10.00,7:12.00 Weight:Cost,Weight:Cost, etc..';
+
 // Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa weight based shipping!';
-?>
+$_['error_permission'] = 'Warning: You do not have permission to modify weight based shipping!';

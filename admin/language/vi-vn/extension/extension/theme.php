@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Các mẫu gian hàng';
+$_['heading_title']    = 'Themes';
 
 // Text
-$_['text_success']     = 'Hoàn tất: Bạn đã sửa đổi các mẫu gian hàng!';
-$_['text_list']        = 'Danh sách các mẫu';
+$_['text_success']     = 'Success: You have modified themes!';
+$_['text_list']        = 'Theme List';
 
 // Column
-$_['column_name']      = 'Tên mẫu';
-$_['column_status']    = 'Trạng thái';
-$_['column_action']    = 'Thao tác';
+$_['column_name']      = 'Theme Name';
+$_['column_status']    = 'Status';
+$_['column_action']    = 'Action';
 
 // Error
-$_['error_permission'] = 'Cảnh báo: Bạn không đủ quyền hạn thực hiện thao tác này!';
+$_['error_permission'] = 'Warning: You do not have permission to modify themes!';

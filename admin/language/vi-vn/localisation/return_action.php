@@ -1,42 +1,21 @@
 <?php
-
 // Heading
-
-$_['heading_title']    = 'Xử lý hàng trả lại';
-
-
+$_['heading_title']    = 'Trả hàng-đổi hàng';
 
 // Text
-
-$_['text_success']     = 'Thành công: Bạn đã sửa đổi các xử lý hàng trả lại!';
-
-$_['text_list']        = 'Danh sách cách xử lý hàng trả lại';
-
-$_['text_add']         = 'Thêm thao tác';
-
-$_['text_edit']        = 'Sửa thao tác';
-
-
+$_['text_success']     = 'Thành công: Bạn đã sửa đổi các công việc trở lại!';
+$_['text_list']        = 'Danh mục Đổi / Trả hàng';
+$_['text_add']         = 'Thêm mục Đổi / Trả hàng';
+$_['text_edit']        = 'Cập nhật thao tác Trả hàng-đổi hàng';
 
 // Column
-
-$_['column_name']      = 'Cách xử lý hàng trả lại';
-
+$_['column_name']      = 'Tên mục Đổi / Trả hàng';
 $_['column_action']    = 'Thao tác';
 
-
-
 // Entry
-
-$_['entry_name']       = 'Cách xử lý hàng trả lại:';
-
-
+$_['entry_name']       = 'Tên mục Đổi / Trả hàng:';
 
 // Error
-
-$_['error_permission'] = 'Cảnh báo: Bạn không đủ quyền hạn thực hiện thao tác này!';
-
-$_['error_name']       = 'Cách xử lý hàng trả lại phải có từ 3 đến 32 ký tự!';
-
-$_['error_return']     = 'Cảnh báo: Không thể xóa được cách xử lý này bởi vì nó đang được áp dụng cho việc trả lại sản phẩm %s .!';
-
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi tên mục Đổi / Trả hàng!';
+$_['error_name']       = 'Tên mục Đổi / Trả hàng phải có từ 3 đến 32 ký tự!';
+$_['error_return']     = 'Cảnh báo: mục Đổi / Trả hàng này không thể xóa khi nó đang được sử dụng bởi đơn hàng %s !';

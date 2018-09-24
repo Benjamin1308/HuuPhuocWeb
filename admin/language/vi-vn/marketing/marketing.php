@@ -1,13 +1,14 @@
 <?php
 // Heading
-$_['heading_title']     = 'Theo dõi chiến dịch tiếp thị';
+$_['heading_title']     = 'Theo dõi tiếp thị';
 
 // Text
-$_['text_success']      = 'Hoàn tất: Bạn vừa chỉnh sửa thành công chiến dịch tiếp thị!';
-$_['text_list']         = 'Danh sách các chiến dịch tiếp thị';
-$_['text_add']          = 'Thêm chiến dịch mới';
-$_['text_edit']         = 'Chỉnh sửa chiến dịch';
-
+$_['text_success']      = 'Hoàn tất: Bạn vừa chỉnh sửa thành công Theo dõi tiếp thị!';
+$_['text_list']         = 'Danh Theo dõi tiếp thị';
+$_['text_add']          = 'Thêm Theo dõi tiếp thị';
+$_['text_edit']         = 'Chỉnh sửa Theo dõi tiếp thị';
+$_['text_filter']       = 'Chọn bộ lọc';
+		
 // Column
 $_['column_name']       = 'Tên chiến dịch';
 $_['column_code']       = 'Mã';
@@ -24,10 +25,11 @@ $_['entry_example']     = 'Ví dụ';
 $_['entry_date_added']  = 'Ngày cập nhật';
 
 // Help
-$_['help_code']         = 'Mã theo dõi sẽ được sử dụng để theo dõi một chiến dịch tiếp thị cụ thể.';
-$_['help_example']      = 'So the system can track refferals you neeed to add the tracking code to the end of the URL linking to your site.';
+$_['help_code']         = 'Mã theo dõi sẽ được sử dụng để theo dõi các chiến dịch tiếp thị.';
+$_['help_example']      = 'Vì vậy, hệ thống có thể theo dõi các giới thiệu mà bạn cần thêm mã theo dõi vào cuối URL liên kết đến trang web của bạn.';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify marketing tracking!';
-$_['error_name']        = 'Campaign must be between 1 and 32 characters!';
-$_['error_code']        = 'Tracking Code required!';
+$_['error_permission']  = 'Cảnh báo: Bạn không có quyền sửa đổi theo dõi tiếp thị!';
+$_['error_name']        = 'Chiến dịch phải có từ 1 đến 32 ký tự!';
+$_['error_code']        = 'Yêu cầu Mã theo dõi!';
+$_['error_exists']      = 'Mã theo dõi đang được một chiến dịch khác sử dụng!';

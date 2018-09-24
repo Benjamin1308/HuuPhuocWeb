@@ -1,5 +1,5 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']   = 'Bạn Quên Mật Khẩu?';
 
 // Text
@@ -11,7 +11,11 @@ $_['text_success']    = 'Thành công: mật khẩu mới đã được gửi đ
 
 // Entry
 $_['entry_email']     = 'Địa chỉ E-Mail:';
+$_['entry_password']  = 'Mật khẩu';
+$_['entry_confirm']   = 'Nhắc lại mật khẩu';
 
 // Error
 $_['error_email']     = 'Lỗi: địa chỉ email này không có trong dữ liệu của chúng tôi, vui lòng thử lại!';
-?>
+$_['error_approved']  = 'Cảnh báo: Tài khoản của bạn yêu cầu phê duyệt trước khi bạn có thể đăng nhập.';
+$_['error_password']  = 'Mật khẩu phải có từ 4 đến 20 ký tự!';
+$_['error_confirm']   = 'Xác nhận mật khẩu và mật khẩu không khớp!';

@@ -1,5 +1,5 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']    = 'Đăng kí nhận thông báo';
 
 // Text
@@ -9,4 +9,3 @@ $_['text_success']     = 'Thành công: Bạn đã đăng kí nhận thư thông
 
 // Entry
 $_['entry_newsletter'] = 'Đăng kí:';
-?>

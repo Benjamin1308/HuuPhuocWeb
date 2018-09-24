@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title'] = 'Failed Payment!';
+$_['heading_title'] = 'Thanh toán không thành công!';
 
 // Text
-$_['text_basket']   = 'Shopping Cart';
-$_['text_checkout'] = 'Checkout';
-$_['text_failure']  = 'Failed Payment';
-$_['text_message']  = '<p>There was a problem processing your payment and the order did not complete.</p>
+$_['text_basket']   = 'Giỏ hàng';
+$_['text_checkout'] = 'Thanh toán';
+$_['text_failure']  = 'Thanh toán không thành công';
+$_['text_message']  = '<p>Đã xảy ra sự cố khi xử lý thanh toán của bạn và đơn hàng đã không hoàn thành.</p>
 
-<p>Possible reasons are:</p>
+<p>Nguyên nhân có thể là:</p>
 <ul>
-  <li>Insufficient funds</li>
-  <li>Verification failed</li>
+  <li>Kinh phí không đủ</li>
+  <li>Xác minh không hoàn thành</li>
 </ul>
 
-<p>Please try to order again using a different payment method.</p>
+<p>Vui lòng thử lại bằng cách sử dụng một phương thức thanh toán khác.</p>
 
-<p>If the problem persists please <a href="%s">contact us</a> with the details of the order you are trying to place.</p>
+<p>Nếu sự cố vẫn tiếp diễn, vui lòng <a href="%s">liên hệ với chúng tôi </a> với các chi tiết về đơn đặt hàng bạn đang cố đặt.</p>
 ';

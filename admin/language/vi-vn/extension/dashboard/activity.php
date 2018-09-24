@@ -1,23 +1,32 @@
 <?php
 // Heading
-$_['heading_title']                = 'Các hoạt động gần đây';
+$_['heading_title']                = 'Recent Activity';
 
 // Text
-$_['text_customer_address_add']    = '<a href="customer_id=%d">%s</a> thêm địa chỉ mới.';
-$_['text_customer_address_edit']   = '<a href="customer_id=%d">%s</a> người cập nhật hồ sơ của họ.';
-$_['text_customer_address_delete'] = '<a href="customer_id=%d">%s</a> đã xóa địa chỉ của họ.';
-$_['text_customer_edit']           = '<a href="customer_id=%d">%s</a> đã cập nhật chi tiết tài khoản thành viên.';
-$_['text_customer_forgotten']      = '<a href="customer_id=%d">%s</a> yêu cầu cấp phát mật khẩu lại.';
-$_['text_customer_login']          = '<a href="customer_id=%d">%s</a> đăng nhập.';
-$_['text_customer_password']       = '<a href="customer_id=%d">%s</a> đã cập nhật mật khẩu cho tài khoản thành viên.';
-$_['text_customer_register']       = '<a href="customer_id=%d">%s</a> tài khoản mới được đăng ký.';
-$_['text_customer_return_account'] = '<a href="customer_id=%d">%s</a> yêu cầu trả sản phẩm.';
-$_['text_customer_return_guest']   = '%s đăng gửi trả lại sản phẩm.';
-$_['text_customer_order_account']  = '<a href="customer_id=%d">%s</a> ngày cập nhật cho đơn hàng <a href="order_id=%d">mới</a>.';
-$_['text_customer_order_guest']    = '%s created a <a href="order_id=%d">đơn hàng mới</a>.';
-$_['text_affiliate_edit']          = '<a href="affiliate_id=%d">%s</a> cập nhật chi tiết tài khoản thành viên.';
-$_['text_affiliate_forgotten']     = '<a href="affiliate_id=%d">%s</a> đã yêu cầu mật khẩu mới.';
-$_['text_affiliate_login']         = '<a href="affiliate_id=%d">%s</a> đăng nhập.';
-$_['text_affiliate_password']      = '<a href="affiliate_id=%d">%s</a> đã cập nhật mật khẩu của họ.';
-$_['text_affiliate_payment']       = '<a href="affiliate_id=%d">%s</a> Lượt cập nhật hình thức chi trả.';
-$_['text_affiliate_register']      = '<a href="affiliate_id=%d">%s</a> lượt đăng ký tài khoản mới.';
+$_['text_extension']               = 'Extensions';
+$_['text_success']                 = 'Success: You have modified dashboard activity!';
+$_['text_edit']                    = 'Edit Dashboard Recent Activity';
+$_['text_activity_register']       = '<a href="customer_id=%d">%s</a> registered a new account.';
+$_['text_activity_edit']           = '<a href="customer_id=%d">%s</a> updated their account details.';
+$_['text_activity_password']       = '<a href="customer_id=%d">%s</a> updated their account password.';
+$_['text_activity_reset']          = '<a href="customer_id=%d">%s</a> reset their account password.';
+$_['text_activity_login']          = '<a href="customer_id=%d">%s</a> logged in.';
+$_['text_activity_forgotten']      = '<a href="customer_id=%d">%s</a> has requested a reset password.';
+$_['text_activity_address_add']    = '<a href="customer_id=%d">%s</a> added a new address.';
+$_['text_activity_address_edit']   = '<a href="customer_id=%d">%s</a> updated their address.';
+$_['text_activity_address_delete'] = '<a href="customer_id=%d">%s</a> deleted one of their addresses.';
+$_['text_activity_return_account'] = '<a href="customer_id=%d">%s</a> submitted a product <a href="return_id=%d">return</a>.';
+$_['text_activity_return_guest']   = '%s submitted a product <a href="return_id=%d">return</a>.';
+$_['text_activity_order_account']  = '<a href="customer_id=%d">%s</a> added a <a href="order_id=%d">new order</a>.';
+$_['text_activity_order_guest']    = '%s created a <a href="order_id=%d">new order</a>.';
+$_['text_activity_affiliate_add']  = '<a href="customer_id=%d">%s</a> registered for a affiliate account.';
+$_['text_activity_affiliate_edit'] = '<a href="customer_id=%d">%s</a> updated their affiliate details.';
+$_['text_activity_transaction']    = '<a href="customer_id=%d">%s</a> received commission from an new <a href="order_id=%d">order</a>.';
+
+// Entry
+$_['entry_status']                 = 'Status';
+$_['entry_sort_order']             = 'Sort Order';
+$_['entry_width']                  = 'Width';
+
+// Error
+$_['error_permission']             = 'Warning: You do not have permission to modify dashboard activity!';

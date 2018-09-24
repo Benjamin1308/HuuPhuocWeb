@@ -90,6 +90,12 @@ class ControllerExtensionReportCustomerTransaction extends Controller {
 			$filter_customer = '';
 		}
 
+		if (isset($this->request->get['filter_telephone'])) {
+			$filter_telephone = $this->request->get['filter_telephone'];
+		} else {
+			$filter_telephone = '';
+		}
+
 		if (isset($this->request->get['page'])) {
 			$page = $this->request->get['page'];
 		} else {
@@ -104,6 +110,7 @@ class ControllerExtensionReportCustomerTransaction extends Controller {
 			'filter_date_start'	=> $filter_date_start,
 			'filter_date_end'	=> $filter_date_end,
 			'filter_customer'	=> $filter_customer,
+			'filter_telephone'	=> $filter_telephone,
 			'start'				=> ($page - 1) * $this->config->get('config_limit_admin'),
 			'limit'				=> $this->config->get('config_limit_admin')
 		);
@@ -115,7 +122,7 @@ class ControllerExtensionReportCustomerTransaction extends Controller {
 		foreach ($results as $result) {
 			$data['customers'][] = array(
 				'customer'       => $result['customer'],
-				'email'          => $result['email'],
+				'telephone'          => $result['telephone'],
 				'customer_group' => $result['customer_group'],
 				'status'         => ($result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled')),
 				'total'          => $this->currency->format($result['total'], $this->config->get('config_currency')),
@@ -139,6 +146,10 @@ class ControllerExtensionReportCustomerTransaction extends Controller {
 			$url .= '&filter_customer=' . urlencode($this->request->get['filter_customer']);
 		}
 
+		if (isset($this->request->get['filter_telephone'])) {
+			$url .= '&filter_telephone=' . urlencode($this->request->get['filter_telephone']);
+		}
+
 		$pagination = new Pagination();
 		$pagination->total = $customer_total;
 		$pagination->page = $page;
@@ -152,6 +163,7 @@ class ControllerExtensionReportCustomerTransaction extends Controller {
 		$data['filter_date_start'] = $filter_date_start;
 		$data['filter_date_end'] = $filter_date_end;
 		$data['filter_customer'] = $filter_customer;
+		$data['filter_telephone'] = $filter_telephone;
 
 		return $this->load->view('extension/report/customer_transaction_info', $data);
 	}

@@ -1,21 +1,21 @@
-<?php
-// Heading
-$_['heading_title']    = 'Chi phí Đặt Hàng';
-
-// Text
-$_['text_total']       = 'Tổng số đơn hàng';
-$_['text_success']     = 'Thành công: bạn đã thay đổi Phí đặt hàng!';
-$_['text_edit']        = 'Chỉnh sửa chi phí đặt hàng';
-
-// Entry
-$_['entry_total']      = 'Tổng Chi phí Đặt Hàng:';
-$_['entry_fee']        = 'Phí:';
-$_['entry_tax_class']  = 'Thuế.:';
-$_['entry_status']     = 'Tình trạng:';
-$_['entry_sort_order'] = 'Thứ tự:';
-
-// Help
-$_['help_total']       = 'The checkout total the order must reach before this order total becomes active.';
-// Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi Phí đặt hàng!';
-?>
+<?php
+// Heading
+$_['heading_title']    = 'Low Order Fee';
+
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified low order fee total!';
+$_['text_edit']        = 'Edit Low Order Fee Total';
+
+// Entry
+$_['entry_total']      = 'Order Total';
+$_['entry_fee']        = 'Fee';
+$_['entry_tax_class']  = 'Tax Class';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
+
+// Help
+$_['help_total']       = 'The checkout total the order must reach before this order total is deactivated.';
+
+// Error
+$_['error_permission'] = 'Warning: You do not have permission to modify low order fee total!';

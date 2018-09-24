@@ -1,5 +1,5 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']                  = 'Thanh Toán';
 
 // Text
@@ -20,8 +20,6 @@ $_['text_register']                  = 'Đăng kí tài khoản';
 $_['text_guest']                     = 'Khách Thanh Toán';
 $_['text_register_account']          = 'Bằng việc tạo tài khoản bạn có thể mua sắm nhanh hơn, theo dõi trạng thái đơn hàng, và theo dõi đơn hàng mà bạn đã đặt.';
 $_['text_forgotten']                 = 'Quên Mật Khẩu';
-$_['text_logged']                    = 'You are logged in as <a href="%s">%s</a> <b>(</b> <a href="%s">Logout</a> <b>)</b>';
-$_['text_items']                     = '%s sản phẩm - %s';
 $_['text_your_details']              = 'Thông tin tài khoản';
 $_['text_your_address']              = 'Địa Chỉ';
 $_['text_your_password']             = 'Mật Khẩu';
@@ -31,25 +29,23 @@ $_['text_address_existing']          = 'Tôi muốn dùng địa chỉ thanh to�
 $_['text_shipping_method']           = 'Vui lòng chọn phương thức vận chuyển cho đơn hàng này.';
 $_['text_payment_method']            = 'Vui lòng chọn phương thức thanh toán cho đơn hàng này.';
 $_['text_comments']                  = 'Thêm đề bạt ý kiến cho Đơn hàng của bạn';
-$_['text_recurring']                 = 'Sản phẩm tính kỳ';
 $_['text_recurring_item']            = 'Recurring Item';
 $_['text_payment_recurring']           = 'Hồ sơ định kỳ';
 $_['text_trial_description']         = '%s cho mỗi %d %s(s) là %d lượng thanh toán, sau đó';
 $_['text_payment_description']       = '%s cho mỗi %d %s(s) là %d lượng thanh toán';
-$_['text_payment_until_canceled_description'] = '%s mỗi %d %s(s) cho đến khi hủy bỏ';
+$_['text_payment_cancel']            = '%s cho mỗi %d %s(s) Cho đến khi hủy';
 $_['text_day']                       = 'theo ngày';
 $_['text_week']                      = 'hàng tuần';
 $_['text_semi_month']                = 'nửa tháng';
 $_['text_month']                     = 'hàng tháng';
 $_['text_year']                      = 'hàng năm';
-$_['text_comments']                  = 'Thêm ghi chú cho đơn hàng của bạn';
 
 // Column
 $_['column_name']                    = 'Tên sản phẩm';
 $_['column_model']                   = 'Mã hàng';
 $_['column_quantity']                = 'Số lượng';
 $_['column_price']                   = 'Giá';
-$_['column_total']                   = 'Tổng Cộng';
+$_['column_total']                   = 'Tổng';
 
 // Entry
 $_['entry_email_address']            = 'Địa chỉ E-Mail:';
@@ -78,6 +74,7 @@ $_['error_login']                    = 'Lỗi: Địa chỉ Email / Mật khẩu
 $_['error_attempts']                 = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
 $_['error_approved']                 = 'Warning: Your account requires approval before you can login.';
 $_['error_exists']                   = 'Lỗi: E-Mail đã có người sử dụng!';
+$_['error_email_confirm']            = 'Lỗi: Xác nhận E-Mail sai! Vui lòng kiểm  tra lại!';
 $_['error_firstname']                = 'Tên phải từ 1 đến 32 kí tự!';
 $_['error_lastname']                 = 'Họ và tên lót phải từ 1 đến 32 kí tự!';
 $_['error_email']                    = 'E-Mail không hợp lệ!';
@@ -96,4 +93,3 @@ $_['error_no_shipping']              = 'Lỗi: Không có tùy chọn phương t
 $_['error_payment']                  = 'Lỗi: Thiếu phương thức thanh toán!';
 $_['error_no_payment']               = 'Lỗi: Không có tùy chọn phương thức thanh toán. Vui lòng <a href="%s">liên hệ chúng tôi</a> để được tư vấn!';
 $_['error_custom_field']             = '%s là yêu cầu bắt buộc!';
-?>

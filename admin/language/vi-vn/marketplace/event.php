@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']     = 'Sự kiện';
+$_['heading_title']     = 'Events';
 
 // Text
-$_['text_success']      = 'Hoàn tất: Bạn đã lưu các thay đổi!';
-$_['text_list']         = 'Danh sách sự kiện';
-$_['text_event']        = 'Các sự kiện được áp dụng cho phần mở rộng, nó sẽ ghi đè lên các chức năng mặc định. Bạn có thể cho phép hoặc vô hiệu hóa nó ở đây.';
-$_['text_info']         = 'Thông tin về sự kiện';
-$_['text_trigger']      = 'Tác động';
-$_['text_action']       = 'Thao tác';
+$_['text_success']      = 'Success: You have modified events!';
+$_['text_list']         = 'Event List';
+$_['text_event']        = 'Events are used by extensions to override the default functionality of your store. If you have issues you can disable or enable the events here.';
+$_['text_info']         = 'Event Information';
+$_['text_trigger']      = 'Trigger';
+$_['text_action']       = 'Action';
 
 // Column
-$_['column_code']       = 'Mã sự kiện';
-$_['column_status']     = 'Trạng thái';
-$_['column_sort_order'] = 'Thứ tự';
-$_['column_action']     = 'Thao tác';
+$_['column_code']       = 'Event Code';
+$_['column_status']     = 'Status';
+$_['column_sort_order'] = 'Sort Order';
+$_['column_action']     = 'Action';
 
 // Error
-$_['error_permission']  = 'Cảnh báo: Bạnk hông đủ quyền hạn thực hiện thao tác này!';
+$_['error_permission']  = 'Warning: You do not have permission to modify extensions!';

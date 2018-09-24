@@ -1,16 +1,15 @@
-<?php
-// Heading
-$_['heading_title']    = 'Điểm thưởng';
-
-// Text
-$_['text_total']       = 'Tổng số đơn hàng';
-$_['text_success']     = 'Thành công: bạn đã thay đổi tổng số điểm thưởng!';
-$_['text_edit']        = 'Chỉnh sửa Reward Points Total';
-
-// Entry
-$_['entry_status']     = 'Tình trạng:';
-$_['entry_sort_order'] = 'Thứ tự:';
-
-// Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi tổng số điểm thưởng!';
-?>
+<?php
+// Heading
+$_['heading_title']    = 'Reward Points';
+
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified reward points total!';
+$_['text_edit']        = 'Edit Reward Points Total';
+
+// Entry
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
+
+// Error
+$_['error_permission'] = 'Warning: You do not have permission to modify reward points total!';

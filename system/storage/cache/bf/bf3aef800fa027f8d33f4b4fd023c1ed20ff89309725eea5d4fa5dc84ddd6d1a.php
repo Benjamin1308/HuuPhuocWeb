@@ -111,16 +111,16 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
         echo "\" id=\"input-name\" class=\"form-control\" />
             </div>
             <div class=\"form-group\">
-              <label class=\"control-label\" for=\"input-email\">";
+              <label class=\"control-label\" for=\"input-telephone\">";
         // line 40
-        echo (isset($context["entry_email"]) ? $context["entry_email"] : null);
+        echo (isset($context["entry_telephone"]) ? $context["entry_telephone"] : null);
         echo "</label>
-              <input type=\"text\" name=\"filter_email\" value=\"";
+              <input type=\"text\" name=\"filter_telephone\" value=\"";
         // line 41
-        echo (isset($context["filter_email"]) ? $context["filter_email"] : null);
+        echo (isset($context["filter_telephone"]) ? $context["filter_telephone"] : null);
         echo "\" placeholder=\"";
-        echo (isset($context["entry_email"]) ? $context["entry_email"] : null);
-        echo "\" id=\"input-email\" class=\"form-control\" />
+        echo (isset($context["entry_telephone"]) ? $context["entry_telephone"] : null);
+        echo "\" id=\"input-telephone\" class=\"form-control\" />
             </div>
             <div class=\"form-group\">
               <label class=\"control-label\" for=\"input-customer-group\">";
@@ -278,19 +278,19 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
         echo "</td>
                       <td class=\"text-left\">";
         // line 104
-        if (((isset($context["sort"]) ? $context["sort"] : null) == "c.email")) {
+        if (((isset($context["sort"]) ? $context["sort"] : null) == "c.telephone")) {
             echo "<a href=\"";
-            echo (isset($context["sort_email"]) ? $context["sort_email"] : null);
+            echo (isset($context["sort_telephone"]) ? $context["sort_telephone"] : null);
             echo "\" class=\"";
             echo twig_lower_filter($this->env, (isset($context["order"]) ? $context["order"] : null));
             echo "\">";
-            echo (isset($context["column_email"]) ? $context["column_email"] : null);
+            echo (isset($context["column_telephone"]) ? $context["column_telephone"] : null);
             echo "</a>";
         } else {
             echo "<a href=\"";
-            echo (isset($context["sort_email"]) ? $context["sort_email"] : null);
+            echo (isset($context["sort_telephone"]) ? $context["sort_telephone"] : null);
             echo "\">";
-            echo (isset($context["column_email"]) ? $context["column_email"] : null);
+            echo (isset($context["column_telephone"]) ? $context["column_telephone"] : null);
             echo "</a>";
         }
         echo "</td>
@@ -406,7 +406,7 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
                 echo "</td>
                     <td class=\"text-left\">";
                 // line 123
-                echo $this->getAttribute($context["customer"], "email", array());
+                echo $this->getAttribute($context["customer"], "telephone", array());
                 echo "</td>
                     <td class=\"text-left\">";
                 // line 124
@@ -547,9 +547,9 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
     if (filter_name) {
       url += '&filter_name=' + encodeURIComponent(filter_name);
     }
-    var filter_email = \$('input[name=\\'filter_email\\']').val();
-    if (filter_email) {
-      url += '&filter_email=' + encodeURIComponent(filter_email);
+    var filter_telephone = \$('input[name=\\'filter_telephone\\']').val();
+    if (filter_telephone) {
+      url += '&filter_telephone=' + encodeURIComponent(filter_telephone);
     }
     var filter_customer_group_id = \$('select[name=\\'filter_customer_group_id\\']').val();
     if (filter_customer_group_id !== '') {
@@ -593,18 +593,18 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
       \$('input[name=\\'filter_name\\']').val(item['label']);
     }
   });
-  \$('input[name=\\'filter_email\\']').autocomplete({
+  \$('input[name=\\'filter_telephone\\']').autocomplete({
     'source': function(request, response) {
       \$.ajax({
         url: 'index.php?route=customer/customer/autocomplete&user_token=";
         // line 238
         echo (isset($context["user_token"]) ? $context["user_token"] : null);
-        echo "&filter_email=' +  encodeURIComponent(request),
+        echo "&filter_telephone=' +  encodeURIComponent(request),
         dataType: 'json',
         success: function(json) {
           response(\$.map(json, function(item) {
             return {
-              label: item['email'],
+              label: item['telephone'],
               value: item['customer_id']
             }
           }));
@@ -612,7 +612,7 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
       });
     },
     'select': function(item) {
-      \$('input[name=\\'filter_email\\']').val(item['label']);
+      \$('input[name=\\'filter_telephone\\']').val(item['label']);
     }
   });
   //--></script>
@@ -687,8 +687,8 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*               <input type="text" name="filter_name" value="{{ filter_name }}" placeholder="{{ entry_name }}" id="input-name" class="form-control" />*/
 /*             </div>*/
 /*             <div class="form-group">*/
-/*               <label class="control-label" for="input-email">{{ entry_email }}</label>*/
-/*               <input type="text" name="filter_email" value="{{ filter_email }}" placeholder="{{ entry_email }}" id="input-email" class="form-control" />*/
+/*               <label class="control-label" for="input-telephone">{{ entry_telephone }}</label>*/
+/*               <input type="text" name="filter_telephone" value="{{ filter_telephone }}" placeholder="{{ entry_telephone }}" id="input-telephone" class="form-control" />*/
 /*             </div>*/
 /*             <div class="form-group">*/
 /*               <label class="control-label" for="input-customer-group">{{ entry_customer_group }}</label>*/
@@ -751,7 +751,7 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*                     <tr>*/
 /*                       <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);" /></td>*/
 /*                       <td class="text-left">{% if sort == 'name' %}<a href="{{ sort_name }}" class="{{ order|lower }}">{{ column_name }}</a>{% else %}<a href="{{ sort_name }}">{{ column_name }}</a>{% endif %}</td>*/
-/*                       <td class="text-left">{% if sort == 'c.email' %}<a href="{{ sort_email }}" class="{{ order|lower }}">{{ column_email }}</a>{% else %}<a href="{{ sort_email }}">{{ column_email }}</a>{% endif %}</td>*/
+/*                       <td class="text-left">{% if sort == 'c.telephone' %}<a href="{{ sort_telephone }}" class="{{ order|lower }}">{{ column_telephone }}</a>{% else %}<a href="{{ sort_telephone }}">{{ column_telephone }}</a>{% endif %}</td>*/
 /*                       <td class="text-left">{% if sort == 'customer_group' %}<a href="{{ sort_customer_group }}" class="{{ order|lower }}">{{ column_customer_group }}</a> {% else %} <a href="{{ sort_customer_group }}">{{ column_customer_group }}</a>{% endif %}</td>*/
 /*                       <td class="text-left">{% if sort == 'c.status' %}<a href="{{ sort_status }}" class="{{ order|lower }}">{{ column_status }}</a>{% else %}<a href="{{ sort_status }}">{{ column_status }}</a>{% endif %}</td>*/
 /*                       <td class="text-left">{% if sort == 'c.ip' %}<a href="{{ sort_ip }}" class="{{ order|lower }}">{{ column_ip }}</a>{% else %}<a href="{{ sort_ip }}">{{ column_ip }}</a>{% endif %}</td>*/
@@ -770,7 +770,7 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*                       {% endif %}*/
 /*                     </td>*/
 /*                       <td class="text-left">{{ customer.name }}</td>*/
-/*                     <td class="text-left">{{ customer.email }}</td>*/
+/*                     <td class="text-left">{{ customer.telephone }}</td>*/
 /*                     <td class="text-left">{{ customer.customer_group }}</td>*/
 /*                     <td class="text-left">{{ customer.status }}</td>*/
 /*                     <td class="text-left">{{ customer.ip }}</td>*/
@@ -839,9 +839,9 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*     if (filter_name) {*/
 /*       url += '&filter_name=' + encodeURIComponent(filter_name);*/
 /*     }*/
-/*     var filter_email = $('input[name=\'filter_email\']').val();*/
-/*     if (filter_email) {*/
-/*       url += '&filter_email=' + encodeURIComponent(filter_email);*/
+/*     var filter_telephone = $('input[name=\'filter_telephone\']').val();*/
+/*     if (filter_telephone) {*/
+/*       url += '&filter_telephone=' + encodeURIComponent(filter_telephone);*/
 /*     }*/
 /*     var filter_customer_group_id = $('select[name=\'filter_customer_group_id\']').val();*/
 /*     if (filter_customer_group_id !== '') {*/
@@ -882,15 +882,15 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*       $('input[name=\'filter_name\']').val(item['label']);*/
 /*     }*/
 /*   });*/
-/*   $('input[name=\'filter_email\']').autocomplete({*/
+/*   $('input[name=\'filter_telephone\']').autocomplete({*/
 /*     'source': function(request, response) {*/
 /*       $.ajax({*/
-/*         url: 'index.php?route=customer/customer/autocomplete&user_token={{ user_token }}&filter_email=' +  encodeURIComponent(request),*/
+/*         url: 'index.php?route=customer/customer/autocomplete&user_token={{ user_token }}&filter_telephone=' +  encodeURIComponent(request),*/
 /*         dataType: 'json',*/
 /*         success: function(json) {*/
 /*           response($.map(json, function(item) {*/
 /*             return {*/
-/*               label: item['email'],*/
+/*               label: item['telephone'],*/
 /*               value: item['customer_id']*/
 /*             }*/
 /*           }));*/
@@ -898,7 +898,7 @@ class __TwigTemplate_ae83c6fbd624d71dbe140efea9290dcbda792a24e82d8c00063a274c863
 /*       });*/
 /*     },*/
 /*     'select': function(item) {*/
-/*       $('input[name=\'filter_email\']').val(item['label']);*/
+/*       $('input[name=\'filter_telephone\']').val(item['label']);*/
 /*     }*/
 /*   });*/
 /*   //--></script>*/

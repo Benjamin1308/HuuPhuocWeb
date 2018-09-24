@@ -1,5 +1,5 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']  = 'Thay đổi mật khẩu';
 
 // Text
@@ -14,4 +14,3 @@ $_['entry_confirm']  = 'Nhập Lại Mật Khẩu:';
 // Error
 $_['error_password'] = 'Mật khẩu phải từ 4 đến 20 kí tự!';
 $_['error_confirm']  = 'Nhập lại mật khẩu không chính xác!';
-?>

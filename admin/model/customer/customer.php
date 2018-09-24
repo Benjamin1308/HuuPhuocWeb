@@ -92,8 +92,8 @@ class ModelCustomerCustomer extends Model {
 			$implode[] = "CONCAT(c.firstname, ' ', c.lastname) LIKE '%" . $this->db->escape($data['filter_name']) . "%'";
 		}
 
-		if (!empty($data['filter_email'])) {
-			$implode[] = "c.email LIKE '" . $this->db->escape($data['filter_email']) . "%'";
+		if (!empty($data['filter_telephone'])) {
+			$implode[] = "c.telephone LIKE '" . $this->db->escape($data['filter_telephone']) . "%'";
 		}
 
 		if (isset($data['filter_newsletter']) && !is_null($data['filter_newsletter'])) {

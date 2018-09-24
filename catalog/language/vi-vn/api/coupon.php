@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_success']     = 'Success: Your coupon discount has been applied!';
+$_['text_success']     = 'Thành công: Giảm giá của bạn đã được áp dụng!';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to access the API!';
-$_['error_coupon']     = 'Warning: Coupon is either invalid, expired or reached it\'s usage limit!';
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền truy cập vào API!';
+$_['error_coupon']     = 'Cảnh báo: Phiếu giảm giá là không hợp lệ, đã hết hạn hoặc đạt đến giới hạn sử dụng của nó!';

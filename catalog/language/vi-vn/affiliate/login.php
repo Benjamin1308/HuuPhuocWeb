@@ -1,5 +1,5 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']                 = 'Chương Trình đại lý';
 
 // Text
@@ -18,6 +18,5 @@ $_['entry_password']                = 'Mật Khẩu:';
 
 // Error
 $_['error_login']                   = 'Lỗi: Email hoặc Mật Khẩu không chính xác.';
-$_['error_attempts']                = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
-$_['error_approved']                = 'Warning: Your account requires approval before you can login.';
-?>
+$_['error_attempts']                = 'Cảnh báo: Tài khoản của bạn đã vượt quá số lần đăng nhập cố định. Vui lòng thử lại trong 1 giờ.';
+$_['error_approved']                = 'Cảnh báo: Tài khoản của bạn yêu cầu phê duyệt trước khi bạn có thể đăng nhập.';

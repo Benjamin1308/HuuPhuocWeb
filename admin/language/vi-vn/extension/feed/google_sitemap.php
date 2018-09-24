@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Google Sitemap';
 
 // Text
-$_['text_feed']        = 'Feeds';
-$_['text_success']     = 'Hoàn tất: Bạn đã thay đổi Google Sitemap feed!';
-$_['text_edit']        = 'Sửa Google Sitemap';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified Google Sitemap feed!';
+$_['text_edit']        = 'Edit Google Sitemap';
 
 // Entry
-$_['entry_status']     = 'Trạng thái';
-$_['entry_data_feed']  = 'Liên kết dữ liệu Feed';
+$_['entry_status']     = 'Status';
+$_['entry_data_feed']  = 'Data Feed Url';
 
 // Error
-$_['error_permission'] = 'Cảnh báo: Bạn không đủ quyền hạn để sửa Google Sitemap feed!';
+$_['error_permission'] = 'Warning: You do not have permission to modify Google Sitemap feed!';

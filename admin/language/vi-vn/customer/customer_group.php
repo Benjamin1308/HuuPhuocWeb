@@ -1,61 +1,30 @@
 <?php
-
 // Heading
-
-$_['heading_title']    = 'Nhóm khách hàng';
-
-
+$_['heading_title']     = 'Nhóm khách hàng';
 
 // Text
-
-$_['text_success']     = 'Thành công: Nhóm khách hàng đã được thay đổi!';
-
-$_['text_list']         = 'Danh sách các nhóm';
-
-$_['text_add']          = 'Thêm nhóm';
-
-$_['text_edit']         = 'Sửa nhóm';
-
-
+$_['text_success']      = 'Thành công: Bạn đã sửa đổi nhóm khách hàng!';
+$_['text_list']         = 'Danh sách nhóm khách hàng';
+$_['text_add']          = 'Thêm nhóm khách hàng';
+$_['text_edit']         = 'Chỉnh sửa nhóm khách hàng';
 
 // Column
-
-$_['column_name']      = 'Tên nhóm';
-
+$_['column_name']       = 'Tên nhóm khách hàng';
 $_['column_sort_order'] = 'Thứ tự';
-
-$_['column_action']    = 'Thao tác';
-
-
+$_['column_action']     = 'Thao tác';
 
 // Entry
-
-$_['entry_name']        = 'Tên nhóm';
-
-$_['entry_description'] = 'Mô tả';
-
-$_['entry_approval']    = 'Phê duyệt nhóm mới';
-
+$_['entry_name']        = 'Tên nhóm khách hàng';
+$_['entry_description'] = 'Chi tiết';
+$_['entry_approval']    = 'Phê duyệt Khách hàng Mới';
 $_['entry_sort_order']  = 'Thứ tự';
 
-
-
 // Help
-
-$_['help_approval']     = 'Khánh hàng phải được phê duyệt trước khi đăng nhập.';
-
-
+$_['help_approval']     = 'Khách hàng phải được quản trị viên phê duyệt trước khi họ có thể đăng nhập.';
 
 // Error
-
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền thay đổi thông tin nhóm khách hàng!';
-
-$_['error_name']       = 'Tên nhóm khách hàng phải có từ 3 đến 64 ký tự!';
-
-$_['error_default']    = 'Cảnh báo: nhóm khách hàng này không thể bị xóa vì nó đang được sử dụng là mặc định!';
-
-$_['error_store']      = 'Cảnh báo: nhóm khách hàng này không thể bị xóa vì nó đang được sử dụng cho %s cửa hàng!';
-
-$_['error_customer']   = 'Cảnh báo: nhóm khách hàng này không thể bị xóa vì nó đang được sử dụng cho %s khách hàng!';
-
-?>
+$_['error_permission']  = 'Cảnh báo: Bạn không có quyền sửa đổi nhóm khách hàng!';
+$_['error_name']        = 'Tên nhóm khách hàng phải có từ 3 đến 32 ký tự!';
+$_['error_default']     = 'Cảnh báo: Nhóm khách hàng này không thể bị xóa vì nó hiện được chỉ định làm nhóm khách hàng lưu trữ mặc định!';
+$_['error_store']       = 'Cảnh báo: Nhóm khách hàng này không thể bị xóa vì nó hiện được chỉ định cho %s cửa hàng!';
+$_['error_customer']    = 'Cảnh báo: Nhóm khách hàng này không thể bị xóa vì nó hiện được chỉ định cho %s khách hàng!';

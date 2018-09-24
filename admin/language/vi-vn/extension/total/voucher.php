@@ -1,16 +1,15 @@
-<?php
-// Heading
-$_['heading_title']    = 'Phiếu quà tặng';
-
-// Text
-$_['text_total']       = 'Tổng số đơn hàng';
-$_['text_success']     = 'Thành công: Bạn đã sửa đổi tổng số phiếu quà tặng!';
-$_['text_edit']        = 'Chỉnh sửa tổng thể quà tặng Gift Voucher';
-
-// Entry
-$_['entry_status']     = 'Tình Trạng:';
-$_['entry_sort_order'] = 'Thứ tự :';
-
-// Error
-$_['error_permission'] = 'Cảnh báo: Bạn không có quyền sửa đổi tổng số phiếu quà tặng!';
-?>
+<?php
+// Heading
+$_['heading_title']    = 'Gift Voucher';
+
+// Text
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified gift voucher total!';
+$_['text_edit']        = 'Edit Gift Voucher Total';
+
+// Entry
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
+
+// Error
+$_['error_permission'] = 'Warning: You do not have permission to modify gift voucher total!';

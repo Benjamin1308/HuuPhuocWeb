@@ -31,6 +31,7 @@ $_['text_unlock']               = 'Unlock Account';
 // Column
 $_['column_name']               = 'Customer Name';
 $_['column_email']              = 'E-Mail';
+$_['column_telephone']              = 'Telephone';
 $_['column_customer_group']     = 'Customer Group';
 $_['column_status']             = 'Status';
 $_['column_date_added']         = 'Date Added';

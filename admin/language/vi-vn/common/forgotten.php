@@ -1,5 +1,5 @@
 <?php
-// header
+// Heading
 $_['heading_title']   = 'Quên mật khẩu?';
 
 // Text
@@ -17,4 +17,3 @@ $_['entry_confirm']   = 'Xác nhận:';
 $_['error_email']     = 'Lỗi: Tìm không thấy địa chỉ E-Mail trong hồ sơ của chúng tôi, hãy thử lại!';
 $_['error_password']  = 'Mật khẩu phải có từ 3 đến 20 ký tự!';
 $_['error_confirm']   = 'Mật khẩu và xác nhận mật khẩu không khớp!';
-?>

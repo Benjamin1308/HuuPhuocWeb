@@ -3,8 +3,8 @@
 $_['heading_title']                = 'UPS';
 
 // Text
-$_['text_shipping']                = 'Shipping';
-$_['text_success']                 = 'Thành Công: Bạn đã thay đổi UPS shipping!';
+$_['text_extension']               = 'Extensions';
+$_['text_success']                 = 'Success: You have modified UPS shipping!';
 $_['text_edit']                    = 'Edit UPS Shipping';
 $_['text_regular_daily_pickup']    = 'Regular Daily Pickup';
 $_['text_daily_pickup']            = 'Daily Pickup';
@@ -27,8 +27,8 @@ $_['text_eu']                      = 'European Union Origin';
 $_['text_pr']                      = 'Puerto Rico Origin';
 $_['text_mx']                      = 'Mexico Origin';
 $_['text_other']                   = 'All Other Origins';
-$_['text_test']                    = 'Kiểm tra';
-$_['text_production']              = 'Sản xuất';	
+$_['text_test']                    = 'Test';
+$_['text_production']              = 'Production';
 $_['text_residential']             = 'Residential';
 $_['text_commercial']              = 'Commercial';
 $_['text_next_day_air']            = 'UPS Next Day Air';
@@ -54,35 +54,33 @@ $_['text_today_express']           = 'UPS Today Express';
 $_['text_today_express_saver']     = 'UPS Today Express Saver';
 
 // Entry
-$_['entry_key']                    = 'Access Key:<span class="help">Enter the XML rates access key assigned to you by UPS.</span>';
-$_['entry_username']               = 'Username:<span class="help">Enter your UPS Services account username.</span>';
-$_['entry_password']               = 'Mật khẩu:<span class="help">Enter your UPS Services account password.</span>';
-$_['entry_pickup']                 = 'Pickup Method:<span class="help">How do you give packages to UPS (only used when origin is US)?</span>';
-$_['entry_packaging']              = 'Packaging Type:<span class="help">What kind of packaging do you use?</span>';
-$_['entry_classification']         = 'Customer Classification Code:<span class="help">01 - If you are billing to a UPS account and have a daily UPS pickup, 03 - If you do not have a UPS account or you are billing to a UPS account but do not have a daily pickup, 04 - If you are shipping from a retail outlet (only used when origin is US)</span>';
-$_['entry_origin']                 = 'Shipping Origin Code:<span class="help">What origin point should be used (this setting affects only what UPS product names are shown to the user)</span>';
-$_['entry_city']                   = 'Origin City:<span class="help">Enter the name of the origin city.</span>';
-$_['entry_state']                  = 'Origin State/Province:<span class="help">Enter the two-letter code for your origin state/province.</span>';
-$_['entry_country']                = 'Origin Country:<span class="help">Enter the two-letter code for your origin country.</span>';
-$_['entry_postcode']               = 'Origin Zip/Postal Code:<span class="help">Enter your origin zip/postalcode.</span>';
-$_['entry_test']                   = 'Chế độ kiểm tra:<span class="help">Chế độ kiểm tra(YES) hoặc chế độ sản xuất (NO)?</span>';
-$_['entry_quote_type']             = 'Quote Type:<span class="help">Quote for Residential or Commercial Delivery.</span>';
-$_['entry_service']                = 'Services:<span class="help">Select the UPS services to be offered.</span>';
-$_['entry_insurance']              = 'Enable Insurance:<span class="help">Enables insurance with product total as the value</span>';
-$_['entry_display_weight']         = 'Display Delivery Weight:<br /><span class="help">Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg\'s)</span>';
-$_['entry_weight_code']            = 'Weight Code:<br /><span class="help">Allowed kgs or lbs. Make sure you match the weight class with the UPS accepted weight code.</span>';
-$_['entry_weight_class']           = 'Weight Class:<span class="help">Set to kilograms or pounds.</span>';
-$_['entry_length_code']            = 'Length Code:<br /><span class="help">Make sure you match the measurement class with the measurement code.</span>';
-$_['entry_length_class']           = 'Length Class:<span class="help">Set to centimeters or inches.</span>';
-$_['entry_dimension']			   = 'Dimensions (L x W x H):<br /><span class="help">This is assumed to be your average packing box size. Individual item dimensions are not supported at this time so you must enter average dimensions like 5x5x5.</span>';
+$_['entry_key']                    = 'Access Key';
+$_['entry_username']               = 'Username';
+$_['entry_password']               = 'Password';
+$_['entry_pickup']                 = 'Pickup Method';
+$_['entry_packaging']              = 'Packaging Type';
+$_['entry_classification']         = 'Customer Classification Code';
+$_['entry_origin']                 = 'Shipping Origin Code';
+$_['entry_city']                   = 'Origin City';
+$_['entry_state']                  = 'Origin State/Province';
+$_['entry_country']                = 'Origin Country';
+$_['entry_postcode']               = 'Origin Zip/Postal Code';
+$_['entry_test']                   = 'Test Mode';
+$_['entry_quote_type']             = 'Quote Type';
+$_['entry_service']                = 'Services';
+$_['entry_insurance']              = 'Enable Insurance';
+$_['entry_display_weight']         = 'Display Delivery Weight';
+$_['entry_weight_class']           = 'Weight Class';
+$_['entry_length_class']           = 'Length Class';
+$_['entry_dimension']              = 'Dimensions (L x W x H)';
 $_['entry_length']                 = 'Length';
 $_['entry_height']                 = 'Height';
 $_['entry_width']                  = 'Width';
-$_['entry_tax_class']              = 'Tax Class:';
-$_['entry_geo_zone']               = 'Vùng tính thuế';
-$_['entry_status']                 = 'Trạng thái:';
-$_['entry_sort_order']             = 'Sắp xếp đơn hàng:';
-$_['entry_debug']      			   = 'Debug Mode:<br /><span class="help">Saves send/recv data to the system log</span>';
+$_['entry_tax_class']              = 'Tax Class';
+$_['entry_geo_zone']               = 'Geo Zone';
+$_['entry_status']                 = 'Status';
+$_['entry_sort_order']             = 'Sort Order';
+$_['entry_debug']                  = 'Debug Mode';
 
 // Help
 $_['help_key']                     = 'Enter the XML rates access key assigned to you by UPS.';
@@ -100,19 +98,18 @@ $_['help_test']                    = 'Use this module in Test (YES) or Productio
 $_['help_quote_type']              = 'Quote for Residential or Commercial Delivery.';
 $_['help_service']                 = 'Select the UPS services to be offered.';
 $_['help_insurance']               = 'Enables insurance with product total as the value';
-$_['help_display_weight']          = 'Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg\'s)';
+$_['help_display_weight']          = 'Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 kg)';
 $_['help_weight_class']            = 'Set to kilograms or pounds.';
 $_['help_length_class']            = 'Set to centimeters or inches.';
-$_['help_dimension']			   = 'This is assumed to be your average packing box size. Individual item dimensions are not supported at this time so you must enter average dimensions like 5x5x5.';
-$_['help_debug']      			   = 'Saves send/recv data to the system log';
+$_['help_dimension']               = 'This is assumed to be your average packing box size. Individual item dimensions are not supported at this time so you must enter average dimensions like 5x5x5.';
+$_['help_debug']                   = 'Saves send/recv data to the system log';
 
 // Error
-$_['error_permission']             = 'Cảnh báo: Bạn không có quyền chỉnh sửa UPS (US) shipping!';
+$_['error_permission']             = 'Warning: You do not have permission to modify UPS (US) shipping!';
 $_['error_key']                    = 'Access Key Required!';
 $_['error_username']               = 'Username Required!';
-$_['error_password']               = 'Yêu cầu mật khẩu!';
+$_['error_password']               = 'Password Required!';
 $_['error_city']                   = 'Origin City!';
 $_['error_state']                  = 'Origin State/Province Required!';
 $_['error_country']                = 'Origin Country Required!';
 $_['error_dimension']              = 'Average Dimensions Required!';
-?>

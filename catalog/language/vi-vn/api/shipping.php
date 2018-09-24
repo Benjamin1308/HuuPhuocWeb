@@ -1,18 +1,18 @@
 <?php
 // Text
-$_['text_address']       = 'Success: Shipping address has been set!';
-$_['text_method']        = 'Success: Shipping method has been set!';
+$_['text_address']       = 'Thành công: địa chỉ giao hàng đã được thiết lập!';
+$_['text_method']        = 'Thành công: Phương thức vận chuyển đã được thiết lập!';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to access the API!';
-$_['error_firstname']    = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']     = 'Last Name must be between 1 and 32 characters!';
-$_['error_address_1']    = 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']         = 'City must be between 3 and 128 characters!';
-$_['error_postcode']     = 'Postcode must be between 2 and 10 characters for this country!';
-$_['error_country']      = 'Please select a country!';
-$_['error_zone']         = 'Please select a region / state!';
-$_['error_custom_field'] = '%s required!';
-$_['error_address']      = 'Warning: Shipping address required!';
-$_['error_method']       = 'Warning: Shipping method required!';
-$_['error_no_shipping']  = 'Warning: No Shipping options are available!';
+$_['error_permission']   = 'Cảnh báo: Bạn không có quyền truy cập vào API!';
+$_['error_firstname']    = 'Tên phải từ 1 đến 32 ký tự!';
+$_['error_lastname']     = 'Họ phải có từ 1 đến 32 ký tự!';
+$_['error_address_1']    = 'Địa chỉ 1 phải từ 3 đến 128 ký tự!';
+$_['error_city']         = 'Thành phố phải có từ 3 đến 128 ký tự!';
+$_['error_postcode']     = 'Mã bưu điện phải từ 2 đến 10 ký tự cho quốc gia này!';
+$_['error_country']      = 'Vui lòng chọn một quốc gia!';
+$_['error_zone']         = 'Vui lòng chọn một Tỉnh / thành phố!';
+$_['error_custom_field'] = '%s Yêu cầu!';
+$_['error_address']      = 'Cảnh báo: Cần địa chỉ giao hàng!';
+$_['error_method']       = 'Cảnh báo: Yêu cầu phương thức vận chuyển!';
+$_['error_no_shipping']  = 'Cảnh báo: Không có tùy chọn giao hàng hàng nào!';

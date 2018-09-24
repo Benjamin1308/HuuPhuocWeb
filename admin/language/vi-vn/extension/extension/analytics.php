@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Analytics';
 
 // Text
-$_['text_success']     = 'Hoàn tất: Bạn đã sửa đổi Analytics!';
-$_['text_list']        = 'Danh sách Analytics';
+$_['text_success']     = 'Success: You have modified analytics!';
+$_['text_list']        = 'Analytics List';
 
 // Column
-$_['column_name']      = 'Tên Analytics';
-$_['column_status']    = 'Trạng thái';
-$_['column_action']    = 'Thao tác';
+$_['column_name']      = 'Analytics Name';
+$_['column_status']    = 'Status';
+$_['column_action']    = 'Action';
 
 // Error
-$_['error_permission'] = 'Cảnh báo: Bạn không đủ quyền hạn thực hiện thao tác này!';
+$_['error_permission'] = 'Warning: You do not have permission to modify analytics!';

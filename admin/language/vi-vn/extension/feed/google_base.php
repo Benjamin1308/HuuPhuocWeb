@@ -3,23 +3,23 @@
 $_['heading_title']          = 'Google Base';
 
 // Text
-$_['text_feed']              = 'Feeds';
-$_['text_success']           = 'HOàn tất: Bạn đã sửa đổi Google Base feed!';
-$_['text_edit']              = 'Sửa Google Base';
-$_['text_import']            = 'Để tải về danh mục Google mới nhất bấm vào<a href="https://support.google.com/merchants/answer/160081?hl=en" target="_blank" class="alert-link"> đây</a> và chọn số ID trong Plain Text, tệp (.txt). Tải lên bằng nút Upload mầu xanh lá cây.';
+$_['text_extension']         = 'Extensions';
+$_['text_success']           = 'Success: You have modified Google Base feed!';
+$_['text_edit']              = 'Edit Google Base';
+$_['text_import']            = 'To download the latest Google category list by <a href="https://support.google.com/merchants/answer/160081?hl=en" target="_blank" class="alert-link">clicking here</a> and choose taxonomy with numeric IDs in Plain Text (.txt) file. Upload via the green import button.';
 
 // Column
-$_['column_google_category'] = 'Danh mục Google';
-$_['column_category']        = 'Danh mục';
-$_['column_action']          = 'Tao tác';
+$_['column_google_category'] = 'Google Category';
+$_['column_category']        = 'Category';
+$_['column_action']          = 'Action';
 
 // Entry
-$_['entry_google_category'] = 'Danh mục Google';
-$_['entry_category']        = 'Danh mục';
-$_['entry_data_feed']       = 'Liên kết dữ liệu Feed';
-$_['entry_status']          = 'Trạng thái';
+$_['entry_google_category']  = 'Google Category';
+$_['entry_category']         = 'Category';
+$_['entry_data_feed']        = 'Data Feed Url';
+$_['entry_status']           = 'Status';
 
 // Error
-$_['error_permission']      = 'Cảnh báo: Bạn không đủ quyền hạn để sửa đổi Google Base feed!';
-$_['error_upload']          = 'Không có tệp tải lên!';
-$_['error_filetype']        = 'Định dạng tệp không được hỗ trợ!';
+$_['error_permission']       = 'Warning: You do not have permission to modify Google Base feed!';
+$_['error_upload']           = 'File could not be uploaded!';
+$_['error_filetype']         = 'Invalid file type!';

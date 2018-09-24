@@ -1,9 +1,9 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']                = 'Đăng nhập tài khoản';
 
 // Text
-$_['text_account']                 = 'Tại khoản';
+$_['text_account']                 = 'Tài khoản';
 $_['text_login']                   = 'Đăng nhập';
 $_['text_new_customer']            = 'Khách hàng mới';
 $_['text_register']                = 'Đăng kí tài khoản';
@@ -18,5 +18,5 @@ $_['entry_password']               = 'Mật khẩu:';
 
 // Error
 $_['error_login']                  = 'Lỗi: Email hoặc mật khẩu không chính xác.';
+$_['error_attempts']               = 'Cảnh báo: Tài khoản của bạn đã vượt quá số lần đăng nhập cố định. Vui lòng thử lại trong 1 giờ.';
 $_['error_approved']               = 'Thông báo: Tài khoản của bạn cần được kích hoạt trước rồi bạn mới đăng nhập được.'; 
-$_['error_attempts']               = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
