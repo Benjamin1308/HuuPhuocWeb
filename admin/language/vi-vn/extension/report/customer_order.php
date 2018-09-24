@@ -18,6 +18,7 @@ $_['column_orders']         = 'Số đơn hàng';
 $_['column_products']       = 'Số sản phẩm';
 $_['column_total']          = 'Tổng cộng';
 $_['column_action']         = 'Chỉnh sửa';
+$_['column_telephone']          = 'Số điện thoại';
 
 // Entry
 $_['entry_date_start']      = 'Từ ngày';
@@ -25,6 +26,7 @@ $_['entry_date_end']        = 'Đến ngày';
 $_['entry_customer']        = 'Khách hàng';
 $_['entry_status']          = 'Tình trạng đơn hàng';
 $_['entry_sort_order']      = 'Sắp xếp';
+$_['entry_telephone']          = 'Số điện thoại';
 
 // Error
 $_['error_permission']  = 'Warning: You do not have permission to modify customer orders report!';

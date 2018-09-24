@@ -28,3 +28,4 @@
 2018-09-16 3:42:24 - PHP Warning:  filter_var() expects parameter 2 to be long, string given in E:\wamp64\www\HuuPhuoc_Ecommerce\admin\controller\customer\customer.php on line 967
 2018-09-16 3:42:49 - PHP Notice:  Use of undefined constant FILTER_VALIDATE_telephone - assumed 'FILTER_VALIDATE_telephone' in E:\wamp64\www\HuuPhuoc_Ecommerce\admin\controller\customer\customer.php on line 967
 2018-09-16 3:42:49 - PHP Warning:  filter_var() expects parameter 2 to be long, string given in E:\wamp64\www\HuuPhuoc_Ecommerce\admin\controller\customer\customer.php on line 967
+2018-09-24 16:28:34 - PHP Notice:  Undefined index: email in E:\wamp64\www\HuuPhuoc_Ecommerce\admin\controller\extension\report\customer_order.php on line 125

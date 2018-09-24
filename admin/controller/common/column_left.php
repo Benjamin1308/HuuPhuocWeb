@@ -381,15 +381,15 @@ class ControllerCommonColumnLeft extends Controller {
 			// }
 			
 			// System
-			// $system = array();
+			$system = array();
 			
-			// if ($this->user->hasPermission('access', 'setting/setting')) {
-			// 	$system[] = array(
-			// 		'name'	   => $this->language->get('text_setting'),
-			// 		'href'     => $this->url->link('setting/store', 'user_token=' . $this->session->data['user_token'], true),
-			// 		'children' => array()		
-			// 	);	
-			// }
+			if ($this->user->hasPermission('access', 'setting/setting')) {
+				$system[] = array(
+					'name'	   => $this->language->get('text_setting'),
+					'href'     => $this->url->link('setting/store', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()		
+				);	
+			}
 		
 			// Users
 			$user = array();
@@ -402,21 +402,21 @@ class ControllerCommonColumnLeft extends Controller {
 				);	
 			}
 			
-			if ($this->user->hasPermission('access', 'user/user_permission')) {	
-				$user[] = array(
-					'name'	   => $this->language->get('text_user_group'),
-					'href'     => $this->url->link('user/user_permission', 'user_token=' . $this->session->data['user_token'], true),
-					'children' => array()		
-				);	
-			}
+			// if ($this->user->hasPermission('access', 'user/user_permission')) {	
+			// 	$user[] = array(
+			// 		'name'	   => $this->language->get('text_user_group'),
+			// 		'href'     => $this->url->link('user/user_permission', 'user_token=' . $this->session->data['user_token'], true),
+			// 		'children' => array()		
+			// 	);	
+			// }
 			
-			if ($this->user->hasPermission('access', 'user/api')) {		
-				$user[] = array(
-					'name'	   => $this->language->get('text_api'),
-					'href'     => $this->url->link('user/api', 'user_token=' . $this->session->data['user_token'], true),
-					'children' => array()		
-				);	
-			}
+			// if ($this->user->hasPermission('access', 'user/api')) {		
+			// 	$user[] = array(
+			// 		'name'	   => $this->language->get('text_api'),
+			// 		'href'     => $this->url->link('user/api', 'user_token=' . $this->session->data['user_token'], true),
+			// 		'children' => array()		
+			// 	);	
+			// }
 			
 			if ($user) {
 				$system[] = array(

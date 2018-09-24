@@ -16,7 +16,7 @@ class ModelExtensionReportCustomerTransaction extends Model {
 		}
 
 		if (!empty($data['filter_telephone'])) {
-			$sql .= " AND CONCAT(c.firstname, ' ', c.lastname) LIKE '" . $this->db->escape($data['filter_telephone']) . "'";
+			$sql .= " AND c.telephone LIKE '" . $this->db->escape($data['filter_telephone']) . "'";
 		}
 
 		$sql .= " GROUP BY ct.customer_id ORDER BY total DESC";
