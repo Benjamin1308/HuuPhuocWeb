@@ -171,42 +171,42 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 					
-			// if ($marketplace) {					
-			// 	$data['menus'][] = array(
-			// 		'id'       => 'menu-extension',
-			// 		'icon'	   => 'fa-puzzle-piece', 
-			// 		'name'	   => $this->language->get('text_extension'),
-			// 		'href'     => '',
-			// 		'children' => $marketplace
-			// 	);		
-			// }
+			if ($marketplace) {					
+				$data['menus'][] = array(
+					'id'       => 'menu-extension',
+					'icon'	   => 'fa-puzzle-piece', 
+					'name'	   => $this->language->get('text_extension'),
+					'href'     => '',
+					'children' => $marketplace
+				);		
+			}
 			
 			// Design
 			$design = array();
 			
-			// if ($this->user->hasPermission('access', 'design/layout')) {
-			// 	$design[] = array(
-			// 		'name'	   => $this->language->get('text_layout'),
-			// 		'href'     => $this->url->link('design/layout', 'user_token=' . $this->session->data['user_token'], true),
-			// 		'children' => array()
-			// 	);	
-			// }
+			if ($this->user->hasPermission('access', 'design/layout')) {
+				$design[] = array(
+					'name'	   => $this->language->get('text_layout'),
+					'href'     => $this->url->link('design/layout', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);	
+			}
 			
-			// if ($this->user->hasPermission('access', 'design/theme')) {	
-			// 	$design[] = array(
-			// 		'name'	   => $this->language->get('text_theme'),
-			// 		'href'     => $this->url->link('design/theme', 'user_token=' . $this->session->data['user_token'], true),
-			// 		'children' => array()		
-			// 	);	
-			// }
+			if ($this->user->hasPermission('access', 'design/theme')) {	
+				$design[] = array(
+					'name'	   => $this->language->get('text_theme'),
+					'href'     => $this->url->link('design/theme', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()		
+				);	
+			}
 			
-			// if ($this->user->hasPermission('access', 'design/translation')) {
-			// 	$design[] = array(
-			// 		'name'	   => $this->language->get('text_language_editor'),
-			// 		'href'     => $this->url->link('design/translation', 'user_token=' . $this->session->data['user_token'], true),
-			// 		'children' => array()		
-			// 	);	
-			// }
+			if ($this->user->hasPermission('access', 'design/translation')) {
+				$design[] = array(
+					'name'	   => $this->language->get('text_language_editor'),
+					'href'     => $this->url->link('design/translation', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()		
+				);	
+			}
 						
 			if ($this->user->hasPermission('access', 'design/banner')) {
 				$design[] = array(

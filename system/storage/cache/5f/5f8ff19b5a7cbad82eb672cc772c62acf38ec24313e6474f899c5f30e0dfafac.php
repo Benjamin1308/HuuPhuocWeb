@@ -16,7 +16,7 @@ class __TwigTemplate_533db5423b5c2ff27cbea4fc9c3e5093480cab443c623a98c79c546e803
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<footer>
+        echo "<!--<footer>
   <div class=\"container\">
     <div class=\"row\">
       ";
@@ -148,7 +148,7 @@ class __TwigTemplate_533db5423b5c2ff27cbea4fc9c3e5093480cab443c623a98c79c546e803
         echo (isset($context["powered"]) ? $context["powered"] : null);
         echo "</p>
   </div>
-</footer>
+</footer>-->
 ";
         // line 45
         $context['_parent'] = $context;
@@ -186,7 +186,7 @@ Please donate via PayPal to donate@opencart.com
         return array (  167 => 48,  158 => 46,  154 => 45,  148 => 42,  138 => 37,  132 => 36,  126 => 35,  120 => 34,  115 => 32,  106 => 28,  100 => 27,  94 => 26,  88 => 25,  83 => 23,  74 => 19,  68 => 18,  62 => 17,  57 => 15,  54 => 14,  49 => 11,  38 => 9,  34 => 8,  29 => 6,  26 => 5,  24 => 4,  19 => 1,);
     }
 }
-/* <footer>*/
+/* <!--<footer>*/
 /*   <div class="container">*/
 /*     <div class="row">*/
 /*       {% if informations %}*/
@@ -229,7 +229,7 @@ Please donate via PayPal to donate@opencart.com
 /*     <hr>*/
 /*     <p>{{ powered }}</p>*/
 /*   </div>*/
-/* </footer>*/
+/* </footer>-->*/
 /* {% for script in scripts %}*/
 /* <script src="{{ script }}" type="text/javascript"></script>*/
 /* {% endfor %}*/
